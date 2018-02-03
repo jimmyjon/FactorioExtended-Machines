@@ -49,7 +49,7 @@ data:extend({
     {
       layers = {
       {
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-furnace/electric-furnace-base-mk2.png",
+        filename = "__FactorioExtended-Machines__/graphics/entity/electric-furnace/electric-furnace-mk2-base.png",
         priority = "high",
         width = 129,
         height = 100,
@@ -209,7 +209,7 @@ data:extend({
     {
       layers = {
       {
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-furnace/electric-furnace-base-mk3.png",
+        filename = "__FactorioExtended-Machines__/graphics/entity/electric-furnace/electric-furnace-mk3-base.png",
         priority = "high",
         width = 129,
         height = 100,

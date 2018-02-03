@@ -68,7 +68,7 @@ data:extend({
           filename = "__FactorioExtended-Machines__/graphics/entity/assembling-machine/assembling-machine-4.png",
           priority = "high",
           width = 108,
-          height = 110,
+          height = 119,
           frame_count = 32,
           line_length = 8,
           shift = util.by_pixel(0, -0.5),
@@ -197,7 +197,7 @@ data:extend({
           frame_count = 32,
           line_length = 8,
           draw_as_shadow = true,
-          shift = util.by_pixel(28, 5),
+          shift = util.by_pixel(28, 4),
           hr_version =
           {
             filename = "__base__/graphics/entity/assembling-machine-3/hr-assembling-machine-3-shadow.png",
