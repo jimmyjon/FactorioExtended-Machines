@@ -129,5 +129,29 @@ data:extend({
     order = "c-c",
     place_result = "pumpjack-mk2",
     stack_size = 20
+  },
+  
+  
+  {
+    type = "item",
+    name = "centrifuge-mk2",
+    icon_size = 32,
+    icon = "__FactorioExtended-Machines__/graphics/icons/centrifuge-mk2.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "fb-machines",
+    order = "f-a",
+    place_result = "centrifuge-mk2",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "centrifuge-mk3",
+    icon_size = 32,
+    icon = "__FactorioExtended-Machines__/graphics/icons/centrifuge-mk3.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "fb-machines",
+    order = "f-b",
+    place_result = "centrifuge-mk3",
+    stack_size = 50
   }
 })

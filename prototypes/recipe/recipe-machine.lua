@@ -169,6 +169,37 @@ data:extend({
       {"pipe", 10}
     },
     result = "pumpjack-mk2"
+  },
+  
+  
+  {
+    type = "recipe",
+    name = "centrifuge-mk2",
+    energy_required = 4,
+    enabled = false,
+    ingredients =
+    {
+      {"centrifuge", 1},
+	  {"steel-plate", 100},
+      {"processing-unit", 50},
+      {"storage-tank", 3}
+    },
+    result = "centrifuge-mk2",
+    requester_paste_multiplier= 2
+  },
+  {
+    type = "recipe",
+    name = "centrifuge-mk3",
+    energy_required = 4,
+    enabled = false,
+    ingredients =
+    {
+      {"centrifuge-mk2", 1},
+	  {"titanium-alloy", 100},
+      {"engine-unit", 25}
+    },
+    result = "centrifuge-mk3",
+    requester_paste_multiplier= 2
   }
 })
 
