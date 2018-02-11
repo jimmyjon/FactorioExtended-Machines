@@ -1,0 +1,7 @@
+Version: 0.3.4
+Date: 02. 10. 2018
+  Bugfixes:
+    - Fixing SD images
+  Changes :
+    - Added Fast replaceable to oil-refineries and chemical plants
+    - Tweaked centrifuge recipe's

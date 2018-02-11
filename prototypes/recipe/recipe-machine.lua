@@ -11,8 +11,6 @@ data:extend({
     },
     result = "radar-mk2"
   },
-  
-  
   {
     type = "recipe",
     name = "electric-furnace-mk2",
@@ -179,10 +177,10 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"centrifuge", 1},
-	  {"steel-plate", 100},
-      {"processing-unit", 50},
-      {"storage-tank", 3}
+      {"centrifuge",      1     },
+      {"concrete",        100   },
+      {"titanium-alloy",  50    },
+      {"processing-unit", 100   }
     },
     result = "centrifuge-mk2",
     requester_paste_multiplier= 2
@@ -195,8 +193,9 @@ data:extend({
     ingredients =
     {
       {"centrifuge-mk2", 1},
-	  {"titanium-alloy", 100},
-      {"engine-unit", 25}
+      {"concrete",        100   },
+      {"titanium-alloy",  50    },
+      {"processing-unit", 100   }
     },
     result = "centrifuge-mk3",
     requester_paste_multiplier= 2

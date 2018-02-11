@@ -1,3 +1,6 @@
+data.raw["assembling-machine"]["oil-refinery"].fast_replaceable_group = "oil-refinery"
+data.raw["assembling-machine"]["chemical-plant"].fast_replaceable_group = "chemical-plant"
+
 data:extend({
  {
     type = "assembling-machine",
@@ -279,7 +282,7 @@ data:extend({
     },
     energy_usage = "460kW",
     ingredient_count = 4,
-  
+    fast_replaceable_group = "oil-refinery",
   
     animation = make_4way_animation_from_spritesheet({ layers =
     {
@@ -317,11 +320,6 @@ data:extend({
       }
     }}),
 
-
-
-
-
-
     working_visualisations =
     {
       {
@@ -336,7 +334,6 @@ data:extend({
           width = 20,
           height = 40,
           frame_count = 60,
-          animation_speed = 0.75,
           shift = util.by_pixel(0, -14),
           hr_version = {
             filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
@@ -344,7 +341,6 @@ data:extend({
             width = 40,
             height = 81,
             frame_count = 60,
-            animation_speed = 0.75,
             scale = 0.5,
             shift = util.by_pixel(0, -14.25),
           },
@@ -425,7 +421,7 @@ data:extend({
     },
     energy_usage = "500kW",
     ingredient_count = 4,
-  
+    fast_replaceable_group = "oil-refinery",
   
     animation = make_4way_animation_from_spritesheet({ layers =
     {
@@ -482,7 +478,6 @@ data:extend({
           width = 20,
           height = 40,
           frame_count = 60,
-          animation_speed = 0.75,
           shift = util.by_pixel(0, -14),
           hr_version = {
             filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
@@ -490,7 +485,6 @@ data:extend({
             width = 40,
             height = 81,
             frame_count = 60,
-            animation_speed = 0.75,
             scale = 0.5,
             shift = util.by_pixel(0, -14.25),
           },
@@ -556,6 +550,7 @@ data:extend({
     dying_explosion = "medium-explosion",
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    fast_replaceable_group = "chemical-plant",
     module_specification =
     {
       module_slots = 4
@@ -611,13 +606,11 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          animation_speed = 0.5,
           hr_version = {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch.png",
             frame_count = 32,
             width = 30,
             height = 20,
-            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -635,13 +628,11 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          animation_speed = 0.5,
           hr_version = {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch-mask.png",
             frame_count = 32,
             width = 30,
             height = 20,
-            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -772,6 +763,7 @@ data:extend({
     dying_explosion = "medium-explosion",
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    fast_replaceable_group = "chemical-plant",
     module_specification =
     {
       module_slots = 4
@@ -826,13 +818,11 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          animation_speed = 0.5,
           hr_version = {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch.png",
             frame_count = 32,
             width = 30,
             height = 20,
-            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -850,13 +840,11 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          animation_speed = 0.5,
           hr_version = {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch-mask.png",
             frame_count = 32,
             width = 30,
             height = 20,
-            animation_speed = 0.5,
             scale = 0.5
           }
         }
