@@ -458,12 +458,6 @@ data:extend({
         }
       }
     }}),
-
-
-
-
-
-
     working_visualisations =
     {
       {
@@ -711,7 +705,7 @@ data:extend({
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    crafting_speed = 2,
+    crafting_speed = 2.5,
     energy_source =
     {
       type = "electric",
@@ -923,7 +917,7 @@ data:extend({
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    crafting_speed = 3,
+    crafting_speed = 5,
     energy_source =
     {
       type = "electric",
