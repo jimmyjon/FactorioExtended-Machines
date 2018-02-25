@@ -4,7 +4,7 @@ data:extend({
   {
     type = "radar",
     name = "radar-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/radar-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/radar-mk2.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "radar-mk2"},
@@ -63,7 +63,7 @@ data:extend({
       layers =
       {
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/radar/radar-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/radar/radar-mk2.png",
           priority = "low",
           width = 98,
           height = 128,
@@ -72,7 +72,7 @@ data:extend({
           line_length = 8,
           shift = util.by_pixel(1, -16),
           hr_version = {
-            filename = "__FactorioExtended-Machines__/graphics/entity/radar/hr-radar-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/radar/hr-radar-mk2.png",
             priority = "low",
             width = 196,
             height = 254,
@@ -125,7 +125,7 @@ data:extend({
   {
     type = "mining-drill",
     name = "basic-mining-drill-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/basic-mining-drill-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/basic-mining-drill-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "basic-mining-drill-mk2"},
@@ -165,7 +165,7 @@ data:extend({
       north =
       {
         priority = "high",
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-N.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-N.png",
         line_length = 8,
         width = 98,
         height = 113,
@@ -175,7 +175,7 @@ data:extend({
         run_mode = "forward-then-backward",
         hr_version = {
           priority = "high",
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-N.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-N.png",
           line_length = 8,
           width = 196,
           height = 226,
@@ -189,7 +189,7 @@ data:extend({
       east =
       {
         priority = "high",
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-E.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-E.png",
         line_length = 8,
         width = 105,
         height = 98,
@@ -199,7 +199,7 @@ data:extend({
         run_mode = "forward-then-backward",
         hr_version = {
           priority = "high",
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-E.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-E.png",
           line_length = 8,
           width = 211,
           height = 197,
@@ -213,7 +213,7 @@ data:extend({
       south =
       {
         priority = "high",
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-S.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-S.png",
         line_length = 8,
         width = 98,
         height = 109,
@@ -223,7 +223,7 @@ data:extend({
         run_mode = "forward-then-backward",
         hr_version = {
           priority = "high",
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-S.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-S.png",
           line_length = 8,
           width = 196,
           height = 219,
@@ -237,7 +237,7 @@ data:extend({
       west =
       {
         priority = "high",
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-W.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-W.png",
         line_length = 8,
         width = 105,
         height = 98,
@@ -247,7 +247,7 @@ data:extend({
         run_mode = "forward-then-backward",
         hr_version = {
           priority = "high",
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-W.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-W.png",
           line_length = 8,
           width = 211,
           height = 197,
@@ -371,7 +371,7 @@ data:extend({
       north =
       {
         priority = "extra-high",
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-N-patch.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-N-patch.png",
         line_length = 1,
         width = 100,
         height = 111,
@@ -380,7 +380,7 @@ data:extend({
         shift = util.by_pixel(0, -6.5),
         hr_version = {
           priority = "extra-high",
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-N-patch.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-N-patch.png",
           line_length = 1,
           width = 200,
           height = 222,
@@ -393,7 +393,7 @@ data:extend({
       east =
       {
         priority = "extra-high",
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-E-patch.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-E-patch.png",
         line_length = 1,
         width = 100,
         height = 110,
@@ -402,7 +402,7 @@ data:extend({
         shift = util.by_pixel(0, -6),
         hr_version = {
           priority = "extra-high",
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-E-patch.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-E-patch.png",
           line_length = 1,
           width = 200,
           height = 219,
@@ -415,7 +415,7 @@ data:extend({
       south =
       {
         priority = "extra-high",
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-S-patch.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-S-patch.png",
         line_length = 1,
         width = 100,
         height = 113,
@@ -424,7 +424,7 @@ data:extend({
         shift = util.by_pixel(0, -7.5),
         hr_version = {
           priority = "extra-high",
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-S-patch.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-S-patch.png",
           line_length = 1,
           width = 200,
           height = 226,
@@ -437,7 +437,7 @@ data:extend({
       west =
       {
         priority = "extra-high",
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-W-patch.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-W-patch.png",
         line_length = 1,
         width = 100,
         height = 108,
@@ -446,7 +446,7 @@ data:extend({
         shift = util.by_pixel(0, -5),
         hr_version = {
           priority = "extra-high",
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-W-patch.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-W-patch.png",
           line_length = 1,
           width = 200,
           height = 220,
@@ -974,7 +974,7 @@ data:extend({
   {
     type = "mining-drill",
     name = "pumpjack-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/pumpjack-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/pumpjack-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pumpjack-mk2"},
@@ -1068,7 +1068,7 @@ data:extend({
         {
           {
             priority = "high",
-            filename = "__FactorioExtended-Machines__/graphics/entity/pumpjack/pumpjack-horsehead-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/pumpjack/pumpjack-horsehead-mk2.png",
             line_length = 10,
             width = 116,
             height = 110,
@@ -1077,7 +1077,7 @@ data:extend({
             hr_version = 
             {
               priority = "high",
-              filename = "__FactorioExtended-Machines__/graphics/entity/pumpjack/hr-pumpjack-horsehead-mk2.png",
+              filename = "__FactorioExtended-Plus-Machines__/graphics/entity/pumpjack/hr-pumpjack-horsehead-mk2.png",
               scale = 0.5,
               line_length = 8,
               width = 206,

@@ -2,7 +2,7 @@ data:extend({
   {
     type = "item",
     name = "radar-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/radar-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/radar-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-machines",
@@ -14,7 +14,7 @@ data:extend({
   {
     type = "item",
     name = "electric-furnace-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/electric-furnace-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-machines",
@@ -25,7 +25,7 @@ data:extend({
   {
     type = "item",
     name = "electric-furnace-mk3",
-    icon = "__FactorioExtended-Machines__/graphics/icons/electric-furnace-mk3.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk3.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-machines",
@@ -37,7 +37,7 @@ data:extend({
   {
     type = "item",
     name = "assembling-machine-4",
-    icon = "__FactorioExtended-Machines__/graphics/icons/assembling-machine-4.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/assembling-machine-4.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-machines",
@@ -48,7 +48,7 @@ data:extend({
   {
     type = "item",
     name = "assembling-machine-5",
-    icon = "__FactorioExtended-Machines__/graphics/icons/assembling-machine-5.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/assembling-machine-5.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-machines",
@@ -61,7 +61,7 @@ data:extend({
   {
     type = "item",
     name = "oil-refinery-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/oil-refinery-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/oil-refinery-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-fluids",
@@ -72,7 +72,7 @@ data:extend({
   {
     type = "item",
     name = "oil-refinery-mk3",
-    icon = "__FactorioExtended-Machines__/graphics/icons/oil-refinery-mk3.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/oil-refinery-mk3.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-fluids",
@@ -85,7 +85,7 @@ data:extend({
   {
     type = "item",
     name = "chemical-plant-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/chemical-plant-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/chemical-plant-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-fluids",
@@ -96,7 +96,7 @@ data:extend({
   {
     type = "item",
     name = "chemical-plant-mk3",
-    icon = "__FactorioExtended-Machines__/graphics/icons/chemical-plant-mk3.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/chemical-plant-mk3.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-fluids",
@@ -109,7 +109,7 @@ data:extend({
   {
     type = "item",
     name = "basic-mining-drill-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/basic-mining-drill-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/basic-mining-drill-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-machines",
@@ -122,7 +122,7 @@ data:extend({
   {
     type = "item",
     name = "pumpjack-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/pumpjack-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/pumpjack-mk2.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "fb-machines",
@@ -136,10 +136,10 @@ data:extend({
     type = "item",
     name = "centrifuge-mk2",
     icon_size = 32,
-    icon = "__FactorioExtended-Machines__/graphics/icons/centrifuge-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/centrifuge-mk2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fb-machines",
-    order = "f-a",
+    order = "e-a",
     place_result = "centrifuge-mk2",
     stack_size = 50
   },
@@ -147,10 +147,10 @@ data:extend({
     type = "item",
     name = "centrifuge-mk3",
     icon_size = 32,
-    icon = "__FactorioExtended-Machines__/graphics/icons/centrifuge-mk3.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/centrifuge-mk3.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "fb-machines",
-    order = "f-b",
+    order = "e-b",
     place_result = "centrifuge-mk3",
     stack_size = 50
   }

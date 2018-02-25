@@ -1,11 +1,11 @@
 {
-  "name": "FactorioExtended-Machines",
-  "version": "0.3.5",
+  "name": "FactorioExtended-Plus-Machines",
+  "version": "0.1.0",
   "factorio_version": "0.16",
-  "date": "2018-02-16",
-  "title": "FactorioExtended-Machines",
+  "date": "2018-02-25",
+  "title": "FactorioExtended Plus-Machines",
   "author": "jimmyjon711 (Original Author: Nath Gamer)",
-  "homepage": "http://www.factorioforums.com/forum/viewtopic.php?f=93&t=19836",
-  "description": "Adds more tiers and varients of machines for your building pleasure!",
-  "dependencies": ["base >= 0.16.20", "FactorioExtended-Core >= 0.3.2"]
+  "homepage": "",
+  "description": "",
+  "dependencies": ["base >= 0.16.20", "FactorioExtended-Plus-Core >= 0.1.0"]
 }

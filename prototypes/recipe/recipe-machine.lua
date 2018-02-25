@@ -180,7 +180,7 @@ data:extend({
       {"centrifuge",      1     },
       {"concrete",        100   },
       {"titanium-alloy",  50    },
-      {"processing-unit", 100   }
+      {"advanced-circuit", 100   }
     },
     result = "centrifuge-mk2",
     requester_paste_multiplier= 2
@@ -203,6 +203,6 @@ data:extend({
 })
 
 if data.raw.item["pipe-mk2"] then
-  factorioextended.core.remove_recipe_item ("pumpjack-mk2", "pipe")
-  factorioextended.core.add_recipe_item ("pumpjack-mk2", {"pipe-mk2", 5})
+  factorioextendedplus.core.remove_recipe_item ("pumpjack-mk2", "pipe")
+  factorioextendedplus.core.add_recipe_item ("pumpjack-mk2", {"pipe-mk2", 5})
 end

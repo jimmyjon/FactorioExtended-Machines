@@ -5,7 +5,7 @@ data:extend({
  {
     type = "assembling-machine",
     name = "assembling-machine-4",
-    icon = "__FactorioExtended-Machines__/graphics/icons/assembling-machine-4.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/assembling-machine-4.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-4"},
@@ -68,7 +68,7 @@ data:extend({
       layers =
       {
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/assembling-machine/assembling-machine-4.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine/assembling-machine-4.png",
           priority = "high",
           width = 108,
           height = 119,
@@ -76,7 +76,7 @@ data:extend({
           line_length = 8,
           shift = util.by_pixel(0, -0.5),
           hr_version = {
-            filename = "__FactorioExtended-Machines__/graphics/entity/assembling-machine/hr-assembling-machine-4.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine/hr-assembling-machine-4.png",
             priority = "high",
             width = 214,
             height = 237,
@@ -128,7 +128,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "assembling-machine-5",
-    icon = "__FactorioExtended-Machines__/graphics/icons/assembling-machine-5.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/assembling-machine-5.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-5"},
@@ -173,7 +173,7 @@ data:extend({
       layers =
       {
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/assembling-machine/assembling-machine-5.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine/assembling-machine-5.png",
           priority = "high",
           width = 108,
           height = 119,
@@ -182,7 +182,7 @@ data:extend({
           shift = util.by_pixel(0, -0.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/assembling-machine/hr-assembling-machine-5.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine/hr-assembling-machine-5.png",
             priority = "high",
             width = 214,
             height = 237,
@@ -256,7 +256,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "oil-refinery-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/oil-refinery-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/oil-refinery-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "oil-refinery-mk2"},
@@ -287,13 +287,13 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__FactorioExtended-Machines__/graphics/entity/oil-refinery/oil-refinery-mk2.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery/oil-refinery-mk2.png",
         width = 337,
         height = 255,
         frame_count = 1,
         shift = {2.515625, 0.484375},
         hr_version = {
-          filename = "__FactorioExtended-Machines__/graphics/entity/oil-refinery/hr-oil-refinery-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery/hr-oil-refinery-mk2.png",
           width = 386,
           height = 430,
           frame_count = 1,
@@ -395,7 +395,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "oil-refinery-mk3",
-    icon = "__FactorioExtended-Machines__/graphics/icons/oil-refinery-mk3.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/oil-refinery-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "oil-refinery-mk3"},
@@ -426,13 +426,13 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__FactorioExtended-Machines__/graphics/entity/oil-refinery/oil-refinery-mk3.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery/oil-refinery-mk3.png",
         width = 337,
         height = 255,
         frame_count = 1,
         shift = {2.515625, 0.484375},
         hr_version = {
-          filename = "__FactorioExtended-Machines__/graphics/entity/oil-refinery/hr-oil-refinery-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery/hr-oil-refinery-mk3.png",
           width = 386,
           height = 430,
           frame_count = 1,
@@ -535,7 +535,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "chemical-plant-mk2",
-    icon = "__FactorioExtended-Machines__/graphics/icons/chemical-plant-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/chemical-plant-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-mk2"},
@@ -554,13 +554,13 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__FactorioExtended-Machines__/graphics/entity/chemical-plant/chemical-plant-mk2.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant/chemical-plant-mk2.png",
         width = 122,
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, -4.5),
         hr_version = {
-          filename = "__FactorioExtended-Machines__/graphics/entity/chemical-plant/hr-chemical-plant-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant/hr-chemical-plant-mk2.png",
           width = 244,
           height = 268,
           frame_count = 1,
@@ -748,7 +748,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "chemical-plant-mk3",
-    icon = "__FactorioExtended-Machines__/graphics/icons/chemical-plant-mk3.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/chemical-plant-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-mk3"},
@@ -766,13 +766,13 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__FactorioExtended-Machines__/graphics/entity/chemical-plant/chemical-plant-mk3.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant/chemical-plant-mk3.png",
         width = 122,
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, -4.5),
         hr_version = {
-          filename = "__FactorioExtended-Machines__/graphics/entity/chemical-plant/hr-chemical-plant-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant/hr-chemical-plant-mk3.png",
           width = 244,
           height = 268,
           frame_count = 1,
@@ -963,7 +963,7 @@ data:extend({
     type = "assembling-machine",
     name = "centrifuge-mk2",
     icon_size = 32,
-    icon = "__FactorioExtended-Machines__/graphics/icons/centrifuge-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/centrifuge-mk2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "centrifuge-mk2"},
     max_health = 400,
@@ -987,7 +987,7 @@ data:extend({
       {
         -- Centrifuge C
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-C-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-mk2.png",
           priority = "high",
           line_length = 8,
           width = 119,
@@ -996,7 +996,7 @@ data:extend({
           shift = util.by_pixel(-0.5, -26.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-mk2.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1030,7 +1030,7 @@ data:extend({
         },
         -- Centrifuge B
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-B-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-mk2.png",
           priority = "high",
           line_length = 8,
           width = 78,
@@ -1039,7 +1039,7 @@ data:extend({
           shift = util.by_pixel(23, 6.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-mk2.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1073,7 +1073,7 @@ data:extend({
         },
         -- Centrifuge A
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-A-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-mk2.png",
           priority = "high",
           line_length = 8,
           width = 70,
@@ -1082,7 +1082,7 @@ data:extend({
           shift = util.by_pixel(-26, 3.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-mk2.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1123,7 +1123,7 @@ data:extend({
       {
         -- Centrifuge C
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-C-light-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-light-mk2.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1134,7 +1134,7 @@ data:extend({
 
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light-mk2.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1147,7 +1147,7 @@ data:extend({
         },
         -- Centrifuge B
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-B-light-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-light-mk2.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1157,7 +1157,7 @@ data:extend({
           shift = util.by_pixel(16.5, 0.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light-mk2.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1170,7 +1170,7 @@ data:extend({
         },
         -- Centrifuge A
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-A-light-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-light-mk2.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1180,7 +1180,7 @@ data:extend({
           shift = util.by_pixel(-23.5, -2),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light-mk2.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1211,7 +1211,7 @@ data:extend({
         west_position = {0.0, 0.0},
         animation =
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-C-light.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-light.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1222,7 +1222,7 @@ data:extend({
 
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1242,7 +1242,7 @@ data:extend({
         west_position = {0.0, 0.0},
         animation =
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-B-light.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-light.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1252,7 +1252,7 @@ data:extend({
           shift = util.by_pixel(16.5, 0.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1271,7 +1271,7 @@ data:extend({
         west_position = {0.0, 0.0},
         animation =
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-A-light.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-light.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1281,7 +1281,7 @@ data:extend({
           shift = util.by_pixel(-23.5, -2),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1334,7 +1334,7 @@ data:extend({
     type = "assembling-machine",
     name = "centrifuge-mk3",
     icon_size = 32,
-    icon = "__FactorioExtended-Machines__/graphics/icons/centrifuge-mk3.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/centrifuge-mk3.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "centrifuge-mk3"},
     max_health = 450,
@@ -1358,7 +1358,7 @@ data:extend({
       {
         -- Centrifuge C
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-C-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-mk3.png",
           priority = "high",
           line_length = 8,
           width = 119,
@@ -1367,7 +1367,7 @@ data:extend({
           shift = util.by_pixel(-0.5, -26.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-mk3.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1401,7 +1401,7 @@ data:extend({
         },
         -- Centrifuge B
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-B-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-mk3.png",
           priority = "high",
           line_length = 8,
           width = 78,
@@ -1410,7 +1410,7 @@ data:extend({
           shift = util.by_pixel(23, 6.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-mk3.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1444,7 +1444,7 @@ data:extend({
         },
         -- Centrifuge A
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-A-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-mk3.png",
           priority = "high",
           line_length = 8,
           width = 70,
@@ -1453,7 +1453,7 @@ data:extend({
           shift = util.by_pixel(-26, 3.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-mk3.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1494,7 +1494,7 @@ data:extend({
       {
         -- Centrifuge C
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-C-light-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-light-mk3.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1505,7 +1505,7 @@ data:extend({
 
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light-mk3.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1518,7 +1518,7 @@ data:extend({
         },
         -- Centrifuge B
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-B-light-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-light-mk3.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1528,7 +1528,7 @@ data:extend({
           shift = util.by_pixel(16.5, 0.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light-mk3.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1541,7 +1541,7 @@ data:extend({
         },
         -- Centrifuge A
         {
-          filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/centrifuge-A-light-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-light-mk3.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1551,7 +1551,7 @@ data:extend({
           shift = util.by_pixel(-23.5, -2),
           hr_version =
           {
-            filename = "__FactorioExtended-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light-mk3.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge

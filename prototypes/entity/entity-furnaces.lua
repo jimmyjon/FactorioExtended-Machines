@@ -3,7 +3,7 @@ data:extend({
     type = "furnace",
     name = "electric-furnace-mk2",
     icon_size = 32,
-    icon = "__FactorioExtended-Machines__/graphics/icons/electric-furnace-mk2.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-furnace-mk2"},
     max_health = 400,
@@ -49,14 +49,14 @@ data:extend({
     {
       layers = {
       {
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-furnace/electric-furnace-mk2-base.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace/electric-furnace-mk2-base.png",
         priority = "high",
         width = 129,
         height = 100,
         frame_count = 1,
         shift = {0.421875, 0},
         hr_version = {
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-furnace/hr-electric-furnace-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace/hr-electric-furnace-mk2.png",
           priority = "high",
           width = 239,
           height = 219,
@@ -156,7 +156,7 @@ data:extend({
     type = "furnace",
     name = "electric-furnace-mk3",
 	icon_size = 32,
-    icon = "__FactorioExtended-Machines__/graphics/icons/electric-furnace-mk3.png",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk3.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "electric-furnace-mk3"},
     max_health = 450,
@@ -203,14 +203,14 @@ data:extend({
     {
       layers = {
       {
-        filename = "__FactorioExtended-Machines__/graphics/entity/electric-furnace/electric-furnace-mk3-base.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace/electric-furnace-mk3-base.png",
         priority = "high",
         width = 129,
         height = 100,
         frame_count = 1,
         shift = {0.421875, 0},
         hr_version = {
-          filename = "__FactorioExtended-Machines__/graphics/entity/electric-furnace/hr-electric-furnace-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace/hr-electric-furnace-mk3.png",
           priority = "high",
           width = 239,
           height = 219,
