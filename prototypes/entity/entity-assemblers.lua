@@ -979,7 +979,7 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     drawing_box = {{-1.5, -2}, {1.5, 1.5}},
-
+    fast_replaceable_group = "centrifuge",
     always_draw_idle_animation = true,
     idle_animation =
     {
@@ -1350,7 +1350,7 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     drawing_box = {{-1.5, -2}, {1.5, 1.5}},
-
+    fast_replaceable_group = "centrifuge",
     always_draw_idle_animation = true,
     idle_animation =
     {
