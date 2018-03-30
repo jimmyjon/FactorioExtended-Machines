@@ -5,7 +5,7 @@ data:extend(
     name = "advanced-oil-processing-2",
     icon_size = 128,
     icon = "__base__/graphics/technology/oil-processing.png",
-    prerequisites = {"advanced-oil-processing", "speed-module"},
+    prerequisites = {"advanced-oil-processing", "speed-module", "titanium-processing"},
     effects =
     {
       {
@@ -26,9 +26,10 @@ data:extend(
       count = 150,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-1",          1},
+        {"science-pack-2",          1},
+        {"science-pack-3",          1},
+        {"production-science-pack", 1}
       },
       time = 30
     },
@@ -58,7 +59,9 @@ data:extend(
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 30
     },
@@ -69,7 +72,7 @@ data:extend(
     name = "centrifuge-2",
     icon_size = 128,
     icon = "__base__/graphics/technology/nuclear-power.png",
-    prerequisites = {"nuclear-power"},
+    prerequisites = {"nuclear-power", "titanium-processing"},
     effects =
     {
       {
@@ -84,7 +87,8 @@ data:extend(
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"production-science-pack", 1}
       },
       time = 30
     },
@@ -110,7 +114,9 @@ data:extend(
       {
         {"science-pack-1", 1},
         {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"science-pack-3", 1},
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 30
     },
@@ -121,7 +127,7 @@ data:extend(
     name = "mechanical-engineer",
     icon = "__base__/graphics/technology/automation.png",
     icon_size = 128,
-    prerequisites = {"automation-2", "advanced-material-processing-2", "speed-module", "effectivity-module"},
+    prerequisites = {"automation-2", "advanced-material-processing-2", "speed-module", "effectivity-module", "titanium-processing"},
     effects =
     {
       {
@@ -144,13 +150,13 @@ data:extend(
     },
     unit =
     {
-      count = 500,
+      count = 300,
       ingredients = 
       {
         {"science-pack-1", 1}, 
         {"science-pack-2", 1}, 
         {"science-pack-3", 1}, 
-        {"high-tech-science-pack", 1}
+        {"production-science-pack", 1}
       },
       time = 30
     },
@@ -161,7 +167,7 @@ data:extend(
     name = "mechanical-engineer-2",
     icon = "__base__/graphics/technology/automation.png",
     icon_size = 128,
-    prerequisites = {"mechanical-engineer", "titanium-processing"},
+    prerequisites = {"mechanical-engineer", "speed-module-2", "effectivity-module-2"},
     effects =
     {
       {
@@ -175,12 +181,13 @@ data:extend(
     },
     unit =
     {
-      count = 750,
+      count = 500,
       ingredients = 
       {
         {"science-pack-1", 1}, 
         {"science-pack-2", 1}, 
         {"science-pack-3", 1}, 
+        {"production-science-pack", 1},
         {"high-tech-science-pack", 1}
       },
       time = 60
