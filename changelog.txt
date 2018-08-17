@@ -5,8 +5,13 @@ Date: 02. 10. 2018
   Changes :
     - Added Fast replaceable to oil-refineries and chemical plants
     - Tweaked centrifuge recipe's
-
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 03. 30. 2018
   Changes :
     - Re-balancing science
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 06. 16. 2018
+  Changes :
+    - Made radars fast replaceable
