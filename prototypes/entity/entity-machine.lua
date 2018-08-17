@@ -10,6 +10,7 @@ data:extend({
     minable = {hardness = 0.2, mining_time = 0.5, result = "radar-mk2"},
     max_health = 300,
     corpse = "big-remnants",
+    fast_replaceable_group = "radar",
     resistances =
     {
       {
