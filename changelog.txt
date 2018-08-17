@@ -12,6 +12,6 @@ Date: 03. 30. 2018
     - Re-balancing science
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
-Date: 06. 16. 2018
+Date: 08. 16. 2018
   Changes :
     - Made radars fast replaceable
