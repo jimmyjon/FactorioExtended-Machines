@@ -16,3 +16,8 @@ Version: 0.1.4
 Date: 08. 16. 2018
   Changes :
     - Made radars fast replaceable
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 03. 01. 2019
+  Changes :
+    - Updating to work with 0.17
