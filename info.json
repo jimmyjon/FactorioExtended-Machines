@@ -1,15 +1,15 @@
 {
   "name": "FactorioExtended-Plus-Machines",
-  "version": "0.1.4",
-  "factorio_version": "0.16",
-  "date": "2018-08-16",
+  "version": "0.1.5",
+  "factorio_version": "0.17",
+  "date": "2019-02-28",
   "title": "FactorioExtended Plus-Machines",
   "author": "jimmyjon711 (Original Author: Nath Gamer)",
   "homepage": "",
   "description": "",
   "dependencies": [
-    "base >= 0.16.20",
-    "FactorioExtended-Plus-Core >= 0.1.2",
-    "?FactorioExtended-Plus-Transport >= 0.1.6"
+    "base >= 0.17.00",
+    "FactorioExtended-Plus-Core >= 0.1.5",
+    "?FactorioExtended-Plus-Transport >= 0.1.7"
   ]
 }
