@@ -3,7 +3,7 @@ data.raw["assembling-machine"]["chemical-plant"].fast_replaceable_group = "chemi
 require("prototypes.entity.assemblerpipes")
 
 data:extend({
- {
+  {
     type = "assembling-machine",
     name = "assembling-machine-4",
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/assembling-machine-4.png",
@@ -166,6 +166,25 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
+    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    working_sound =
+    {
+      sound =
+      {
+        {
+          filename = "__base__/sound/assembling-machine-t3-1.ogg",
+          volume = 0.8
+        },
+        {
+          filename = "__base__/sound/assembling-machine-t3-2.ogg",
+          volume = 0.8
+        }
+      },
+      idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
+      apparent_volume = 1.5
+    },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     drawing_box   = {{-1.5, -1.7}, {1.5, 1.5}},
@@ -218,25 +237,7 @@ data:extend({
         },
       },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    working_sound =
-    {
-      sound =
-      {
-        {
-          filename = "__base__/sound/assembling-machine-t2-1.ogg",
-          volume = 0.8
-        },
-        {
-          filename = "__base__/sound/assembling-machine-t2-2.ogg",
-          volume = 0.8
-        },
-      },
-      idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
-    },
+
     crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 3,
     energy_source =
@@ -264,6 +265,7 @@ data:extend({
     dying_explosion = "medium-explosion",
     collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
+    drawing_box   = {{-2.5, -2.8}, {2.5, 2.5}},
     module_specification =
     {
       module_slots = 4
@@ -285,13 +287,14 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery/oil-refinery-mk2.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery-mk2/oil-refinery-mk2.png",
         width = 337,
         height = 255,
         frame_count = 1,
         shift = {2.515625, 0.484375},
-        hr_version = {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery/hr-oil-refinery-mk2.png",
+        hr_version = 
+	      {
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery-mk2/hr-oil-refinery-mk2.png",
           width = 386,
           height = 430,
           frame_count = 1,
@@ -306,7 +309,8 @@ data:extend({
         frame_count = 1,
         shift = util.by_pixel(82.5, 26.5),
         draw_as_shadow = true,
-        hr_version = {
+        hr_version = 
+        {
           filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
           width = 674,
           height = 426,
@@ -332,16 +336,19 @@ data:extend({
           width = 20,
           height = 40,
           frame_count = 60,
+          animation_speed = 0.75,
           shift = util.by_pixel(0, -14),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
             frame_count = 60,
+            animation_speed = 0.75,
             scale = 0.5,
-            shift = util.by_pixel(0, -14.25),
-          },
+            shift = util.by_pixel(0, -14.25)
+          }
         },
         light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
       }
@@ -351,7 +358,7 @@ data:extend({
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 2.5,
+      apparent_volume = 2.5
     },
     fluid_boxes =
     {
@@ -387,8 +394,7 @@ data:extend({
         base_level = 1,
         pipe_connections = {{ position = {2, -3} }}
       }
-    },
-    pipe_covers = pipecoverspictures()
+    }
   },
   {
     type = "assembling-machine",
@@ -402,6 +408,7 @@ data:extend({
     dying_explosion = "medium-explosion",
     collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
+    drawing_box   = {{-2.5, -2.8}, {2.5, 2.5}},
     module_specification =
     {
       module_slots = 4
@@ -423,13 +430,14 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery/oil-refinery-mk3.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery-mk3/oil-refinery-mk3.png",
         width = 337,
         height = 255,
         frame_count = 1,
         shift = {2.515625, 0.484375},
-        hr_version = {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery/hr-oil-refinery-mk3.png",
+        hr_version = 
+        {
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/oil-refinery-mk3/hr-oil-refinery-mk3.png",
           width = 386,
           height = 430,
           frame_count = 1,
@@ -444,7 +452,8 @@ data:extend({
         frame_count = 1,
         shift = util.by_pixel(82.5, 26.5),
         draw_as_shadow = true,
-        hr_version = {
+        hr_version = 
+        {
           filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
           width = 674,
           height = 426,
@@ -469,16 +478,19 @@ data:extend({
           width = 20,
           height = 40,
           frame_count = 60,
+          animation_speed = 0.75,
           shift = util.by_pixel(0, -14),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
             frame_count = 60,
+            animation_speed = 0.75,
             scale = 0.5,
-            shift = util.by_pixel(0, -14.25),
-          },
+            shift = util.by_pixel(0, -14.25)
+          }
         },
         light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
       }
@@ -524,8 +536,7 @@ data:extend({
         base_level = 1,
         pipe_connections = {{ position = {2, -3} }}
       }
-    },
-    pipe_covers = pipecoverspictures()
+    }
   },
   {
     type = "assembling-machine",
@@ -539,6 +550,7 @@ data:extend({
     dying_explosion = "medium-explosion",
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    drawing_box   = {{-1.5, -1.9}, {1.5, 1.5}},
     fast_replaceable_group = "chemical-plant",
     module_specification =
     {
@@ -554,14 +566,15 @@ data:extend({
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, -4.5),
-        hr_version = {
+        hr_version = 
+        {
           filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk2/hr-chemical-plant-mk2.png",
           width = 244,
           height = 268,
           frame_count = 1,
           shift = util.by_pixel(-5, -4.5),
           scale = 0.5
-          }
+        }
       },
       {
         filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
@@ -570,7 +583,8 @@ data:extend({
         frame_count = 1,
         shift = util.by_pixel(31.5, 11),
         draw_as_shadow = true,
-        hr_version = {
+        hr_version = 
+        {
           filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-shadow.png",
           width = 350,
           height = 219,
@@ -578,7 +592,7 @@ data:extend({
           shift = util.by_pixel(31.5, 10.75),
           draw_as_shadow = true,
           scale = 0.5
-          }
+        }
       },
     }}),
     working_visualisations =
@@ -595,11 +609,14 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          hr_version = {
+          animation_speed = 0.5,
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch.png",
             frame_count = 32,
             width = 30,
             height = 20,
+            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -617,11 +634,14 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          hr_version = {
+          animation_speed = 0.5,
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch-mask.png",
             frame_count = 32,
             width = 30,
             height = 20,
+            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -639,7 +659,8 @@ data:extend({
           width = 87,
           height = 60,
           shift = util.by_pixel(0, -5),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
             x = 0,
             frame_count = 1,
@@ -657,7 +678,8 @@ data:extend({
           width = 87,
           height = 60,
           shift = util.by_pixel(0, -5),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
             x = 174,
             frame_count = 1,
@@ -675,7 +697,8 @@ data:extend({
           width = 87,
           height = 60,
           shift = util.by_pixel(0, -5),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
             x = 348,
             frame_count = 1,
@@ -751,6 +774,7 @@ data:extend({
     dying_explosion = "medium-explosion",
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    drawing_box   = {{-1.5, -1.9}, {1.5, 1.5}},
     fast_replaceable_group = "chemical-plant",
     module_specification =
     {
@@ -765,14 +789,15 @@ data:extend({
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, -4.5),
-        hr_version = {
+        hr_version = 
+        {
           filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk3/hr-chemical-plant-mk3.png",
           width = 244,
           height = 268,
           frame_count = 1,
           shift = util.by_pixel(-5, -4.5),
           scale = 0.5
-          }
+        }
       },
       {
         filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
@@ -781,7 +806,8 @@ data:extend({
         frame_count = 1,
         shift = util.by_pixel(31.5, 11),
         draw_as_shadow = true,
-        hr_version = {
+        hr_version = 
+        {
           filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-shadow.png",
           width = 350,
           height = 219,
@@ -789,7 +815,7 @@ data:extend({
           shift = util.by_pixel(31.5, 10.75),
           draw_as_shadow = true,
           scale = 0.5
-          }
+        }
       },
     }}),
     working_visualisations =
@@ -806,11 +832,14 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          hr_version = {
+          animation_speed = 0.5,
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch.png",
             frame_count = 32,
             width = 30,
             height = 20,
+            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -828,11 +857,14 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          hr_version = {
+          animation_speed = 0.5,
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch-mask.png",
             frame_count = 32,
             width = 30,
             height = 20,
+            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -850,7 +882,8 @@ data:extend({
           width = 87,
           height = 60,
           shift = util.by_pixel(0, -5),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
             x = 0,
             frame_count = 1,
@@ -868,7 +901,8 @@ data:extend({
           width = 87,
           height = 60,
           shift = util.by_pixel(0, -5),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
             x = 174,
             frame_count = 1,
@@ -886,7 +920,8 @@ data:extend({
           width = 87,
           height = 60,
           shift = util.by_pixel(0, -5),
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
             x = 348,
             frame_count = 1,
