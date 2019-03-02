@@ -98,7 +98,6 @@ data:extend({
           width = 25,
           height = 15,
           frame_count = 12,
-          animation_speed = 0.5,
           shift = {0.015625, 0.890625},
           hr_version = 
           {
@@ -107,7 +106,6 @@ data:extend({
             width = 60,
             height = 56,
             frame_count = 12,
-            animation_speed = 0.5,
             shift = util.by_pixel(1.75, 32.75),
             scale = 0.5
           }
@@ -122,7 +120,6 @@ data:extend({
           width = 19,
           height = 13,
           frame_count = 4,
-          animation_speed = 0.5,
           shift = {-0.671875, -0.640625},
           hr_version = 
           {
@@ -131,7 +128,6 @@ data:extend({
             width = 37,
             height = 25,
             frame_count = 4,
-            animation_speed = 0.5,
             shift = util.by_pixel(-20.5, -18.5),
             scale = 0.5
           }
@@ -145,7 +141,6 @@ data:extend({
           width = 12,
           height = 9,
           frame_count = 4,
-          animation_speed = 0.5,
           shift = {0.0625, -1.234375},
           hr_version = 
           {
@@ -154,7 +149,6 @@ data:extend({
             width = 23,
             height = 15,
             frame_count = 4,
-            animation_speed = 0.5,
             shift = util.by_pixel(3.5, -38),
             scale = 0.5
           }
@@ -262,7 +256,6 @@ data:extend({
           width = 25,
           height = 15,
           frame_count = 12,
-          animation_speed = 0.5,
           shift = {0.015625, 0.890625},
           hr_version = 
           {
@@ -271,7 +264,6 @@ data:extend({
             width = 60,
             height = 56,
             frame_count = 12,
-            animation_speed = 0.5,
             shift = util.by_pixel(1.75, 32.75),
             scale = 0.5
           }
@@ -286,7 +278,6 @@ data:extend({
           width = 19,
           height = 13,
           frame_count = 4,
-          animation_speed = 0.5,
           shift = {-0.671875, -0.640625},
           hr_version = 
           {
@@ -295,7 +286,6 @@ data:extend({
             width = 37,
             height = 25,
             frame_count = 4,
-            animation_speed = 0.5,
             shift = util.by_pixel(-20.5, -18.5),
             scale = 0.5
           }
@@ -309,7 +299,6 @@ data:extend({
           width = 12,
           height = 9,
           frame_count = 4,
-          animation_speed = 0.5,
           shift = {0.0625, -1.234375},
           hr_version = 
           {
@@ -318,7 +307,6 @@ data:extend({
             width = 23,
             height = 15,
             frame_count = 4,
-            animation_speed = 0.5,
             shift = util.by_pixel(3.5, -38),
             scale = 0.5
           }

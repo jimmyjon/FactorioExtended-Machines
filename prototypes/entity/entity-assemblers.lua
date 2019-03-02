@@ -336,7 +336,6 @@ data:extend({
           width = 20,
           height = 40,
           frame_count = 60,
-          animation_speed = 0.75,
           shift = util.by_pixel(0, -14),
           hr_version = 
           {
@@ -345,7 +344,6 @@ data:extend({
             width = 40,
             height = 81,
             frame_count = 60,
-            animation_speed = 0.75,
             scale = 0.5,
             shift = util.by_pixel(0, -14.25)
           }
@@ -478,7 +476,6 @@ data:extend({
           width = 20,
           height = 40,
           frame_count = 60,
-          animation_speed = 0.75,
           shift = util.by_pixel(0, -14),
           hr_version = 
           {
@@ -487,7 +484,6 @@ data:extend({
             width = 40,
             height = 81,
             frame_count = 60,
-            animation_speed = 0.75,
             scale = 0.5,
             shift = util.by_pixel(0, -14.25)
           }
@@ -609,14 +605,12 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          animation_speed = 0.5,
           hr_version = 
           {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch.png",
             frame_count = 32,
             width = 30,
             height = 20,
-            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -634,14 +628,12 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          animation_speed = 0.5,
           hr_version = 
           {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch-mask.png",
             frame_count = 32,
             width = 30,
             height = 20,
-            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -832,14 +824,12 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          animation_speed = 0.5,
           hr_version = 
           {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch.png",
             frame_count = 32,
             width = 30,
             height = 20,
-            animation_speed = 0.5,
             scale = 0.5
           }
         }
@@ -857,14 +847,12 @@ data:extend({
           frame_count = 32,
           width = 15,
           height = 10,
-          animation_speed = 0.5,
           hr_version = 
           {
             filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch-mask.png",
             frame_count = 32,
             width = 30,
             height = 20,
-            animation_speed = 0.5,
             scale = 0.5
           }
         }
