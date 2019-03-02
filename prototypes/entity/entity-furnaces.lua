@@ -5,7 +5,7 @@ data:extend({
     icon_size = 32,
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 1, result = "electric-furnace-mk2"},
+    minable = {mining_time = 0.3, result = "electric-furnace-mk2"},
     max_health = 400,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -49,14 +49,15 @@ data:extend({
     {
       layers = {
       {
-        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace/electric-furnace-mk2-base.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace-mk2/electric-furnace-mk2-base.png",
         priority = "high",
         width = 129,
         height = 100,
         frame_count = 1,
         shift = {0.421875, 0},
-        hr_version = {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace/hr-electric-furnace-mk2.png",
+        hr_version = 
+        {
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace-mk2/hr-electric-furnace-mk2.png",
           priority = "high",
           width = 239,
           height = 219,
@@ -73,7 +74,8 @@ data:extend({
         frame_count = 1,
         shift = {0.421875, 0},
         draw_as_shadow = true,
-        hr_version = {
+        hr_version = 
+        {
           filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-shadow.png",
           priority = "high",
           width = 227,
@@ -96,13 +98,16 @@ data:extend({
           width = 25,
           height = 15,
           frame_count = 12,
+          animation_speed = 0.5,
           shift = {0.015625, 0.890625},
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-heater.png",
             priority = "high",
             width = 60,
             height = 56,
             frame_count = 12,
+            animation_speed = 0.5,
             shift = util.by_pixel(1.75, 32.75),
             scale = 0.5
           }
@@ -117,13 +122,16 @@ data:extend({
           width = 19,
           height = 13,
           frame_count = 4,
+          animation_speed = 0.5,
           shift = {-0.671875, -0.640625},
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-propeller-1.png",
             priority = "high",
             width = 37,
             height = 25,
             frame_count = 4,
+            animation_speed = 0.5,
             shift = util.by_pixel(-20.5, -18.5),
             scale = 0.5
           }
@@ -137,13 +145,16 @@ data:extend({
           width = 12,
           height = 9,
           frame_count = 4,
+          animation_speed = 0.5,
           shift = {0.0625, -1.234375},
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-propeller-2.png",
             priority = "high",
             width = 23,
             height = 15,
             frame_count = 4,
+            animation_speed = 0.5,
             shift = util.by_pixel(3.5, -38),
             scale = 0.5
           }
@@ -155,14 +166,13 @@ data:extend({
   {
     type = "furnace",
     name = "electric-furnace-mk3",
-	icon_size = 32,
+    icon_size = 32,
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk3.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 1, result = "electric-furnace-mk3"},
+    minable = {mining_time = 0.4, result = "electric-furnace-mk3"},
     max_health = 450,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    light = {intensity = 1, size = 10},
     resistances =
     {
       {
@@ -203,14 +213,15 @@ data:extend({
     {
       layers = {
       {
-        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace/electric-furnace-mk3-base.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace-mk3/electric-furnace-mk3-base.png",
         priority = "high",
         width = 129,
         height = 100,
         frame_count = 1,
         shift = {0.421875, 0},
-        hr_version = {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace/hr-electric-furnace-mk3.png",
+        hr_version = 
+        {
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/electric-furnace-mk3/hr-electric-furnace-mk3.png",
           priority = "high",
           width = 239,
           height = 219,
@@ -227,7 +238,8 @@ data:extend({
         frame_count = 1,
         shift = {0.421875, 0},
         draw_as_shadow = true,
-        hr_version = {
+        hr_version = 
+        {
           filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-shadow.png",
           priority = "high",
           width = 227,
@@ -250,13 +262,16 @@ data:extend({
           width = 25,
           height = 15,
           frame_count = 12,
+          animation_speed = 0.5,
           shift = {0.015625, 0.890625},
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-heater.png",
             priority = "high",
             width = 60,
             height = 56,
             frame_count = 12,
+            animation_speed = 0.5,
             shift = util.by_pixel(1.75, 32.75),
             scale = 0.5
           }
@@ -271,13 +286,16 @@ data:extend({
           width = 19,
           height = 13,
           frame_count = 4,
+          animation_speed = 0.5,
           shift = {-0.671875, -0.640625},
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-propeller-1.png",
             priority = "high",
             width = 37,
             height = 25,
             frame_count = 4,
+            animation_speed = 0.5,
             shift = util.by_pixel(-20.5, -18.5),
             scale = 0.5
           }
@@ -291,13 +309,16 @@ data:extend({
           width = 12,
           height = 9,
           frame_count = 4,
+          animation_speed = 0.5,
           shift = {0.0625, -1.234375},
-          hr_version = {
+          hr_version = 
+          {
             filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-propeller-2.png",
             priority = "high",
             width = 23,
             height = 15,
             frame_count = 4,
+            animation_speed = 0.5,
             shift = util.by_pixel(3.5, -38),
             scale = 0.5
           }
