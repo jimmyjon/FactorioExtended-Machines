@@ -9,7 +9,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/assembling-machine-4.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-4"},
+    minable = {mining_time = 0.3, result = "assembling-machine-4"},
     max_health = 450,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -111,7 +111,7 @@ data:extend({
         },
       },
     },
-    crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
+    crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 2,
     energy_source =
     {
@@ -120,7 +120,6 @@ data:extend({
       emissions = 0.03 / 7
     },
     energy_usage = "270kW",
-    ingredient_count = 6,
     module_specification =
     {
       module_slots = 4
@@ -133,7 +132,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/assembling-machine-5.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-5"},
+    minable = {mining_time = 0.4, result = "assembling-machine-5"},
     max_health = 500,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -238,7 +237,7 @@ data:extend({
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
+    crafting_categories = {"basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 3,
     energy_source =
     {
@@ -247,22 +246,19 @@ data:extend({
       emissions = 0.03 / 7
     },
     energy_usage = "330kW",
-    ingredient_count = 6,
     module_specification =
     {
       module_slots = 4
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
-  
-  
   {
     type = "assembling-machine",
     name = "oil-refinery-mk2",
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/oil-refinery-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
-    minable = {mining_time = 1, result = "oil-refinery-mk2"},
+    minable = {mining_time = 0.3, result = "oil-refinery-mk2"},
     max_health = 400,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -284,7 +280,6 @@ data:extend({
       emissions = 0.03 / 7
     },
     energy_usage = "460kW",
-    ingredient_count = 4,
     fast_replaceable_group = "oil-refinery",
   
     animation = make_4way_animation_from_spritesheet({ layers =
@@ -401,7 +396,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/oil-refinery-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
-    minable = {mining_time = 1, result = "oil-refinery-mk3"},
+    minable = {mining_time = 0.4, result = "oil-refinery-mk3"},
     max_health = 450,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -423,7 +418,6 @@ data:extend({
       emissions = 0.03 / 7
     },
     energy_usage = "500kW",
-    ingredient_count = 4,
     fast_replaceable_group = "oil-refinery",
   
     animation = make_4way_animation_from_spritesheet({ layers =
@@ -533,15 +527,13 @@ data:extend({
     },
     pipe_covers = pipecoverspictures()
   },
-  
-  
   {
     type = "assembling-machine",
     name = "chemical-plant-mk2",
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/chemical-plant-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-mk2"},
+    minable = {mining_time = 0.3, result = "chemical-plant-mk2"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -557,13 +549,13 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant/chemical-plant-mk2.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk2/chemical-plant-mk2.png",
         width = 122,
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, -4.5),
         hr_version = {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant/hr-chemical-plant-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk2/hr-chemical-plant-mk2.png",
           width = 244,
           height = 268,
           frame_count = 1,
@@ -574,7 +566,7 @@ data:extend({
       {
         filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
         width = 175,
-        height = 110,
+        height = 141,
         frame_count = 1,
         shift = util.by_pixel(31.5, 11),
         draw_as_shadow = true,
@@ -716,7 +708,6 @@ data:extend({
       emissions = 0.03 / 7
     },
     energy_usage = "250kW",
-    ingredient_count = 4,
     crafting_categories = {"chemistry"},
     fluid_boxes =
     {
@@ -754,7 +745,7 @@ data:extend({
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/chemical-plant-mk3.png",
     icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-mk3"},
+    minable = {mining_time = 0.4, result = "chemical-plant-mk3"},
     max_health = 900,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -769,13 +760,13 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
-        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant/chemical-plant-mk3.png",
+        filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk3/chemical-plant-mk3.png",
         width = 122,
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, -4.5),
         hr_version = {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant/hr-chemical-plant-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk3/hr-chemical-plant-mk3.png",
           width = 244,
           height = 268,
           frame_count = 1,
@@ -786,7 +777,7 @@ data:extend({
       {
         filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
         width = 175,
-        height = 110,
+        height = 141,
         frame_count = 1,
         shift = util.by_pixel(31.5, 11),
         draw_as_shadow = true,
@@ -928,7 +919,6 @@ data:extend({
       emissions = 0.03 / 7
     },
     energy_usage = "290kW",
-    ingredient_count = 4,
     crafting_categories = {"chemistry"},
     fluid_boxes =
     {
@@ -960,15 +950,13 @@ data:extend({
       }
     }
   },
-  
-  
   {
     type = "assembling-machine",
     name = "centrifuge-mk2",
     icon_size = 32,
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/centrifuge-mk2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 0.1, result = "centrifuge-mk2"},
+    minable = {mining_time = 0.3, result = "centrifuge-mk2"},
     max_health = 400,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -1233,7 +1221,6 @@ data:extend({
       emissions = 0.04 / 5
     },
     energy_usage = "450kW",
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 4
@@ -1246,7 +1233,7 @@ data:extend({
     icon_size = 32,
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/centrifuge-mk3.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 0.1, result = "centrifuge-mk3"},
+    minable = {mining_time = 0.4, result = "centrifuge-mk3"},
     max_health = 450,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -1511,7 +1498,6 @@ data:extend({
       emissions = 0.04 / 10
     },
     energy_usage = "550kW",
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 4
