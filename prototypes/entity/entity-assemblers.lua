@@ -1,5 +1,6 @@
 data.raw["assembling-machine"]["oil-refinery"].fast_replaceable_group = "oil-refinery"
 data.raw["assembling-machine"]["chemical-plant"].fast_replaceable_group = "chemical-plant"
+require("prototypes.entity.assemblerpipes")
 
 data:extend({
  {
@@ -24,7 +25,7 @@ data:extend({
     {
       {
         production_type = "input",
-        pipe_picture = assembler2pipepictures(),
+        pipe_picture = assembler4pipepictures(),
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = -1,
@@ -33,7 +34,7 @@ data:extend({
       },
       {
         production_type = "output",
-        pipe_picture = assembler2pipepictures(),
+        pipe_picture = assembler4pipepictures(),
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = 1,
@@ -62,13 +63,14 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    drawing_box   = {{-1.5, -1.7}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
     animation =
     {
       layers =
       {
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine/assembling-machine-4.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine-4/assembling-machine-4.png",
           priority = "high",
           width = 108,
           height = 119,
@@ -76,7 +78,7 @@ data:extend({
           line_length = 8,
           shift = util.by_pixel(0, -0.5),
           hr_version = {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine/hr-assembling-machine-4.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine-4/hr-assembling-machine-4.png",
             priority = "high",
             width = 214,
             height = 237,
@@ -147,7 +149,7 @@ data:extend({
     {
       {
         production_type = "input",
-        pipe_picture = assembler2pipepictures(),
+        pipe_picture = assembler5pipepictures(),
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = -1,
@@ -156,7 +158,7 @@ data:extend({
       },
       {
         production_type = "output",
-        pipe_picture = assembler2pipepictures(),
+        pipe_picture = assembler5pipepictures(),
         pipe_covers = pipecoverspictures(),
         base_area = 10,
         base_level = 1,
@@ -167,13 +169,14 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    drawing_box   = {{-1.5, -1.7}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
     animation =
     {
       layers =
       {
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine/assembling-machine-5.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine-5/assembling-machine-5.png",
           priority = "high",
           width = 108,
           height = 119,
@@ -182,7 +185,7 @@ data:extend({
           shift = util.by_pixel(0, -0.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine/hr-assembling-machine-5.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/assembling-machine-5/hr-assembling-machine-5.png",
             priority = "high",
             width = 214,
             height = 237,
