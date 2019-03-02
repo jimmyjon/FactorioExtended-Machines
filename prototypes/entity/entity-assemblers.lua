@@ -968,7 +968,7 @@ data:extend({
     icon_size = 32,
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/centrifuge-mk2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "centrifuge-mk2"},
+    minable = {mining_time = 0.1, result = "centrifuge-mk2"},
     max_health = 400,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -981,7 +981,7 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    drawing_box = {{-1.5, -2}, {1.5, 1.5}},
+    drawing_box = {{-1.5, -2.2}, {1.5, 1.5}},
     fast_replaceable_group = "centrifuge",
     always_draw_idle_animation = true,
     idle_animation =
@@ -990,7 +990,7 @@ data:extend({
       {
         -- Centrifuge C
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-C-mk2.png",
           priority = "high",
           line_length = 8,
           width = 119,
@@ -999,7 +999,7 @@ data:extend({
           shift = util.by_pixel(-0.5, -26.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-C-mk2.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1033,7 +1033,7 @@ data:extend({
         },
         -- Centrifuge B
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-B-mk2.png",
           priority = "high",
           line_length = 8,
           width = 78,
@@ -1042,7 +1042,7 @@ data:extend({
           shift = util.by_pixel(23, 6.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-B-mk2.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1076,7 +1076,7 @@ data:extend({
         },
         -- Centrifuge A
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-A-mk2.png",
           priority = "high",
           line_length = 8,
           width = 70,
@@ -1085,7 +1085,7 @@ data:extend({
           shift = util.by_pixel(-26, 3.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-A-mk2.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1126,7 +1126,7 @@ data:extend({
       {
         -- Centrifuge C
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-light-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-C-light-mk2.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1137,7 +1137,7 @@ data:extend({
 
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-C-light-mk2.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1150,7 +1150,7 @@ data:extend({
         },
         -- Centrifuge B
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-light-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-B-light-mk2.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1160,7 +1160,7 @@ data:extend({
           shift = util.by_pixel(16.5, 0.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-B-light-mk2.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1173,7 +1173,7 @@ data:extend({
         },
         -- Centrifuge A
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-light-mk2.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/centrifuge-A-light-mk2.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1183,7 +1183,7 @@ data:extend({
           shift = util.by_pixel(-23.5, -2),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light-mk2.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk2/hr-centrifuge-A-light-mk2.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1202,99 +1202,6 @@ data:extend({
       {
         effect = "uranium-glow", -- changes alpha based on energy source light intensity
         light = {intensity = 0.6, size = 9.9, shift = {0.0, 0.0}, color = {r = 0.0, g = 0.8, b = 0.0}}
-      }
-    },
-
-    working_visualisations_disabled =
-    {
-      {
-        north_position = {0.0, 0.0},
-        east_position = {0.0, 0.0},
-        south_position = {0.0, 0.0},
-        west_position = {0.0, 0.0},
-        animation =
-        {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-light.png",
-          priority = "high",
-          blend_mode = "additive", -- centrifuge
-          line_length = 8,
-          width = 96,
-          height = 104,
-          frame_count = 64,
-          shift = util.by_pixel(0, -27),
-
-          hr_version =
-          {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light.png",
-            priority = "high",
-            scale = 0.5,
-            blend_mode = "additive", -- centrifuge
-            line_length = 8,
-            width = 190,
-            height = 207,
-            frame_count = 64,
-            shift = util.by_pixel(0, -27.25),
-          }
-        },
-        --light = {intensity = 1, size = 1, color = {r = 1.0, g = 1.0, b = 1.0}}
-      },
-      {
-        north_position = {0.0, 0.0},
-        east_position = {0.0, 0.0},
-        south_position = {0.0, 0.0},
-        west_position = {0.0, 0.0},
-        animation =
-        {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-light.png",
-          priority = "high",
-          blend_mode = "additive", -- centrifuge
-          line_length = 8,
-          width = 65,
-          height = 103,
-          frame_count = 64,
-          shift = util.by_pixel(16.5, 0.5),
-          hr_version =
-          {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light.png",
-            priority = "high",
-            scale = 0.5,
-            blend_mode = "additive", -- centrifuge
-            line_length = 8,
-            width = 131,
-            height = 206,
-            frame_count = 64,
-            shift = util.by_pixel(16.75, 0.5),
-          }
-        }
-      },
-      {
-        north_position = {0.0, 0.0},
-        east_position = {0.0, 0.0},
-        south_position = {0.0, 0.0},
-        west_position = {0.0, 0.0},
-        animation =
-        {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-light.png",
-          priority = "high",
-          blend_mode = "additive", -- centrifuge
-          line_length = 8,
-          width = 55,
-          height = 98,
-          frame_count = 64,
-          shift = util.by_pixel(-23.5, -2),
-          hr_version =
-          {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light.png",
-            priority = "high",
-            scale = 0.5,
-            blend_mode = "additive", -- centrifuge
-            line_length = 8,
-            width = 108,
-            height = 197,
-            frame_count = 64,
-            shift = util.by_pixel(-23.5, -1.75),
-          }
-        }
       }
     },
 
@@ -1339,7 +1246,7 @@ data:extend({
     icon_size = 32,
     icon = "__FactorioExtended-Plus-Machines__/graphics/icons/centrifuge-mk3.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "centrifuge-mk3"},
+    minable = {mining_time = 0.1, result = "centrifuge-mk3"},
     max_health = 450,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -1352,7 +1259,7 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    drawing_box = {{-1.5, -2}, {1.5, 1.5}},
+    drawing_box = {{-1.5, -2.2}, {1.5, 1.5}},
     fast_replaceable_group = "centrifuge",
     always_draw_idle_animation = true,
     idle_animation =
@@ -1361,7 +1268,7 @@ data:extend({
       {
         -- Centrifuge C
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-C-mk3.png",
           priority = "high",
           line_length = 8,
           width = 119,
@@ -1370,7 +1277,7 @@ data:extend({
           shift = util.by_pixel(-0.5, -26.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-C-mk3.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1404,7 +1311,7 @@ data:extend({
         },
         -- Centrifuge B
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-B-mk3.png",
           priority = "high",
           line_length = 8,
           width = 78,
@@ -1413,7 +1320,7 @@ data:extend({
           shift = util.by_pixel(23, 6.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-B-mk3.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1447,7 +1354,7 @@ data:extend({
         },
         -- Centrifuge A
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-A-mk3.png",
           priority = "high",
           line_length = 8,
           width = 70,
@@ -1456,7 +1363,7 @@ data:extend({
           shift = util.by_pixel(-26, 3.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-A-mk3.png",
             priority = "high",
             scale = 0.5,
             line_length = 8,
@@ -1497,7 +1404,7 @@ data:extend({
       {
         -- Centrifuge C
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-C-light-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-C-light-mk3.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1508,7 +1415,7 @@ data:extend({
 
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-C-light-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-C-light-mk3.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1521,7 +1428,7 @@ data:extend({
         },
         -- Centrifuge B
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-B-light-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-B-light-mk3.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1531,7 +1438,7 @@ data:extend({
           shift = util.by_pixel(16.5, 0.5),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-B-light-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-B-light-mk3.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1544,7 +1451,7 @@ data:extend({
         },
         -- Centrifuge A
         {
-          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/centrifuge-A-light-mk3.png",
+          filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/centrifuge-A-light-mk3.png",
           priority = "high",
           blend_mode = "additive", -- centrifuge
           line_length = 8,
@@ -1554,7 +1461,7 @@ data:extend({
           shift = util.by_pixel(-23.5, -2),
           hr_version =
           {
-            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge/hr-centrifuge-A-light-mk3.png",
+            filename = "__FactorioExtended-Plus-Machines__/graphics/entity/centrifuge-mk3/hr-centrifuge-A-light-mk3.png",
             priority = "high",
             scale = 0.5,
             blend_mode = "additive", -- centrifuge
@@ -1573,99 +1480,6 @@ data:extend({
       {
         effect = "uranium-glow", -- changes alpha based on energy source light intensity
         light = {intensity = 0.6, size = 9.9, shift = {0.0, 0.0}, color = {r = 0.0, g = 0.6, b = 0.0}}
-      }
-    },
-
-    working_visualisations_disabled =
-    {
-      {
-        north_position = {0.0, 0.0},
-        east_position = {0.0, 0.0},
-        south_position = {0.0, 0.0},
-        west_position = {0.0, 0.0},
-        animation =
-        {
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-C-light.png",
-          priority = "high",
-          blend_mode = "additive", -- centrifuge
-          line_length = 8,
-          width = 96,
-          height = 104,
-          frame_count = 64,
-          shift = util.by_pixel(0, -27),
-
-          hr_version =
-          {
-            filename = "__base__/graphics/entity/centrifuge/hr-centrifuge-C-light.png",
-            priority = "high",
-            scale = 0.5,
-            blend_mode = "additive", -- centrifuge
-            line_length = 8,
-            width = 190,
-            height = 207,
-            frame_count = 64,
-            shift = util.by_pixel(0, -27.25),
-          }
-        },
-        --light = {intensity = 1, size = 1, color = {r = 1.0, g = 1.0, b = 1.0}}
-      },
-      {
-        north_position = {0.0, 0.0},
-        east_position = {0.0, 0.0},
-        south_position = {0.0, 0.0},
-        west_position = {0.0, 0.0},
-        animation =
-        {
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-B-light.png",
-          priority = "high",
-          blend_mode = "additive", -- centrifuge
-          line_length = 8,
-          width = 65,
-          height = 103,
-          frame_count = 64,
-          shift = util.by_pixel(16.5, 0.5),
-          hr_version =
-          {
-            filename = "__base__/graphics/entity/centrifuge/hr-centrifuge-B-light.png",
-            priority = "high",
-            scale = 0.5,
-            blend_mode = "additive", -- centrifuge
-            line_length = 8,
-            width = 131,
-            height = 206,
-            frame_count = 64,
-            shift = util.by_pixel(16.75, 0.5),
-          }
-        }
-      },
-      {
-        north_position = {0.0, 0.0},
-        east_position = {0.0, 0.0},
-        south_position = {0.0, 0.0},
-        west_position = {0.0, 0.0},
-        animation =
-        {
-          filename = "__base__/graphics/entity/centrifuge/centrifuge-A-light.png",
-          priority = "high",
-          blend_mode = "additive", -- centrifuge
-          line_length = 8,
-          width = 55,
-          height = 98,
-          frame_count = 64,
-          shift = util.by_pixel(-23.5, -2),
-          hr_version =
-          {
-            filename = "__base__/graphics/entity/centrifuge/hr-centrifuge-A-light.png",
-            priority = "high",
-            scale = 0.5,
-            blend_mode = "additive", -- centrifuge
-            line_length = 8,
-            width = 108,
-            height = 197,
-            frame_count = 64,
-            shift = util.by_pixel(-23.5, -1.75),
-          }
-        }
       }
     },
 
