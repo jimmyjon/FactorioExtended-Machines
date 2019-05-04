@@ -155,7 +155,8 @@ data:extend({
         }
       }
     },
-    fast_replaceable_group = "furnace"
+    fast_replaceable_group = "furnace",
+    next_upgrade = "electric-furnace-mk3"
   },
   {
     type = "furnace",

@@ -127,11 +127,11 @@ data:extend({
   
   {
     type = "mining-drill",
-    name = "basic-mining-drill-mk2",
-    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/basic-mining-drill-mk2.png",
+    name = "electric-mining-drill-mk2",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-mining-drill-mk2.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.3, result = "basic-mining-drill-mk2"},
+    minable = {mining_time = 0.3, result = "electric-mining-drill-mk2"},
     max_health = 600,
     resource_categories = {"basic-solid"},
     corpse = "big-remnants",

@@ -138,7 +138,7 @@ data:extend({
   
   {
     type = "recipe",
-    name = "basic-mining-drill-mk2",
+    name = "electric-mining-drill-mk2",
     energy_required = 2,
     enabled = false,
     ingredients =
@@ -150,7 +150,7 @@ data:extend({
       {"effectivity-module", 2},
       {"pollution-filter", 1}
     },
-    result = "basic-mining-drill-mk2"
+    result = "electric-mining-drill-mk2"
   },
   
   

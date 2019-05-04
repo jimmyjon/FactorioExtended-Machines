@@ -1,5 +1,3 @@
-data.raw["assembling-machine"]["oil-refinery"].fast_replaceable_group = "oil-refinery"
-data.raw["assembling-machine"]["chemical-plant"].fast_replaceable_group = "chemical-plant"
 require("prototypes.entity.assemblerpipes")
 
 data:extend({
@@ -65,6 +63,7 @@ data:extend({
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     drawing_box   = {{-1.5, -1.7}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
+    next_upgrade = "assembling-machine-5",
     animation =
     {
       layers =
@@ -283,6 +282,7 @@ data:extend({
     },
     energy_usage = "460kW",
     fast_replaceable_group = "oil-refinery",
+    next_upgrade = "oil-refinery-mk3",
   
     animation = make_4way_animation_from_spritesheet({ layers =
     {
@@ -548,6 +548,7 @@ data:extend({
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     drawing_box   = {{-1.5, -1.9}, {1.5, 1.5}},
     fast_replaceable_group = "chemical-plant",
+    next_upgrade = "chemical-plant-mk3",
     module_specification =
     {
       module_slots = 4
@@ -994,6 +995,7 @@ data:extend({
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     drawing_box = {{-1.5, -2.2}, {1.5, 1.5}},
     fast_replaceable_group = "centrifuge",
+    next_upgrade = "centrifuge-mk3",
     always_draw_idle_animation = true,
     idle_animation =
     {

@@ -5,6 +5,7 @@ data:extend(
     name = "advanced-oil-processing-2",
     icon_size = 128,
     icon = "__base__/graphics/technology/oil-processing.png",
+    localised_description = {"technology-description.advanced-oil-processing-2"},
     prerequisites = {"advanced-oil-processing", "speed-module", "titanium-processing"},
     effects =
     {
@@ -40,6 +41,7 @@ data:extend(
     name = "advanced-oil-processing-3",
     icon_size = 128,
     icon = "__base__/graphics/technology/oil-processing.png",
+    localised_description = {"technology-description.advanced-oil-processing-3"},
     prerequisites = {"advanced-oil-processing-2", "speed-module-2", "effectivity-module-2"},
     effects =
     {
@@ -144,7 +146,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "basic-mining-drill-mk2"
+        recipe = "electric-mining-drill-mk2"
       },
       
     },

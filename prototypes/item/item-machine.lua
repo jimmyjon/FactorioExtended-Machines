@@ -99,12 +99,12 @@ data:extend({
   
   {
     type = "item",
-    name = "basic-mining-drill-mk2",
-    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/basic-mining-drill-mk2.png",
+    name = "electric-mining-drill-mk2",
+    icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-mining-drill-mk2.png",
     icon_size = 32,
     subgroup = "fb-machines",
     order = "c-a",
-    place_result = "basic-mining-drill-mk2",
+    place_result = "electric-mining-drill-mk2",
     stack_size = 50
   },
   
