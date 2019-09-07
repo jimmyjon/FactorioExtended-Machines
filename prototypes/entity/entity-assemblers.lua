@@ -559,145 +559,259 @@ data:extend({
     {
       {
         filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk2/chemical-plant-mk2.png",
-        width = 122,
-        height = 134,
-        frame_count = 1,
-        shift = util.by_pixel(-5, -4.5),
-        hr_version = 
+        width = 108,
+        height = 148,
+        frame_count = 24,
+        line_length = 12,
+        shift = util.by_pixel(1, -9),
+        hr_version =
         {
           filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk2/hr-chemical-plant-mk2.png",
-          width = 244,
-          height = 268,
-          frame_count = 1,
-          shift = util.by_pixel(-5, -4.5),
+          width = 220,
+          height = 292,
+          frame_count = 24,
+          line_length = 12,
+          shift = util.by_pixel(0.5, -9),
           scale = 0.5
-        }
+          }
       },
       {
         filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
-        width = 175,
-        height = 141,
+        width = 154,
+        height = 112,
+        repeat_count = 24,
         frame_count = 1,
-        shift = util.by_pixel(31.5, 11),
+        shift = util.by_pixel(28, 6),
         draw_as_shadow = true,
-        hr_version = 
+        hr_version =
         {
           filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-shadow.png",
-          width = 350,
-          height = 219,
+          width = 312,
+          height = 222,
+          repeat_count = 24,
           frame_count = 1,
-          shift = util.by_pixel(31.5, 10.75),
+          shift = util.by_pixel(27, 6),
           draw_as_shadow = true,
           scale = 0.5
-        }
-      },
+          }
+      }
     }}),
     working_visualisations =
     {
       {
-        north_position = util.by_pixel(30, -24),
-        west_position = util.by_pixel(1, -49.5),
-        south_position = util.by_pixel(-30, -48),
-        east_position = util.by_pixel(-11, -1),
         apply_recipe_tint = "primary",
-        animation =
+        north_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-green-patch.png",
-          frame_count = 32,
-          width = 15,
-          height = 10,
-          hr_version = 
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-liquid-north.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 32,
+          height = 24,
+          shift = util.by_pixel(24, 14),
+          hr_version =
           {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch.png",
-            frame_count = 32,
-            width = 30,
-            height = 20,
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-liquid-north.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 66,
+            height = 44,
+            shift = util.by_pixel(23, 15),
+            scale = 0.5
+          }
+        },
+        east_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-liquid-east.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 36,
+          height = 18,
+          shift = util.by_pixel(0, 22),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-liquid-east.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 70,
+            height = 36,
+            shift = util.by_pixel(0, 22),
+            scale = 0.5
+          }
+        },
+        south_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-liquid-south.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 34,
+          height = 24,
+          shift = util.by_pixel(0, 16),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-liquid-south.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 66,
+            height = 42,
+            shift = util.by_pixel(0, 17),
+            scale = 0.5
+          }
+        },
+        west_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-liquid-west.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 38,
+          height = 20,
+          shift = util.by_pixel(-10, 12),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-liquid-west.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 74,
+            height = 36,
+            shift = util.by_pixel(-10, 13),
             scale = 0.5
           }
         }
       },
-
       {
-        north_position = util.by_pixel(30, -24),
-        west_position = util.by_pixel(1, -49.5),
-        south_position = util.by_pixel(-30, -48),
-        east_position = util.by_pixel(-11, -1),
         apply_recipe_tint = "secondary",
-        animation =
+        north_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-green-patch-mask.png",
-          frame_count = 32,
-          width = 15,
-          height = 10,
-          hr_version = 
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-foam-north.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 32,
+          height = 22,
+          shift = util.by_pixel(24, 14),
+          hr_version =
           {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch-mask.png",
-            frame_count = 32,
-            width = 30,
-            height = 20,
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-foam-north.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 62,
+            height = 42,
+            shift = util.by_pixel(24, 15),
+            scale = 0.5
+          }
+        },
+        east_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-foam-east.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 34,
+          height = 18,
+          shift = util.by_pixel(0, 22),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-foam-east.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 68,
+            height = 36,
+            shift = util.by_pixel(0, 22),
+            scale = 0.5
+          }
+        },
+        south_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-foam-south.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 32,
+          height = 18,
+          shift = util.by_pixel(0, 18),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-foam-south.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 60,
+            height = 40,
+            shift = util.by_pixel(1, 17),
+            scale = 0.5
+          }
+        },
+        west_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-foam-west.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 36,
+          height = 16,
+          shift = util.by_pixel(-10, 14),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-foam-west.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 68,
+            height = 28,
+            shift = util.by_pixel(-9, 15),
             scale = 0.5
           }
         }
       },
       {
         apply_recipe_tint = "tertiary",
-        north_position = {0, 0},
-        west_position = {0, 0},
-        south_position = {0, 0},
-        east_position = {0, 0},
-        north_animation =
+        fadeout = true,
+        constant_speed = true,
+        north_position = util.by_pixel_hr(-30, -161),
+        east_position = util.by_pixel_hr(29, -150),
+        south_position = util.by_pixel_hr(12, -134),
+        west_position = util.by_pixel_hr(-32, -130),
+        animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
-          frame_count = 1,
-          width = 87,
-          height = 60,
-          shift = util.by_pixel(0, -5),
-          hr_version = 
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-smoke-outer.png",
+          frame_count = 47,
+          line_length = 16,
+          width = 46,
+          height = 94,
+          animation_speed = 0.5,
+          shift = util.by_pixel(-2, -40),
+          hr_version =
           {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
-            x = 0,
-            frame_count = 1,
-            width = 174,
-            height = 119,
-            shift = util.by_pixel(0, -5.25),
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-smoke-outer.png",
+            frame_count = 47,
+            line_length = 16,
+            width = 90,
+            height = 188,
+            animation_speed = 0.5,
+            shift = util.by_pixel(-2, -40),
             scale = 0.5
           }
-        },
-        east_animation =
+        }
+      },
+      {
+        apply_recipe_tint = "quaternary",
+        fadeout = true,
+        constant_speed = true,
+        north_position = util.by_pixel_hr(-30, -161),
+        east_position = util.by_pixel_hr(29, -150),
+        south_position = util.by_pixel_hr(12, -134),
+        west_position = util.by_pixel_hr(-32, -130),
+        animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
-          x = 87,
-          frame_count = 1,
-          width = 87,
-          height = 60,
-          shift = util.by_pixel(0, -5),
-          hr_version = 
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-smoke-inner.png",
+          frame_count = 47,
+          line_length = 16,
+          width = 20,
+          height = 42,
+          animation_speed = 0.5,
+          shift = util.by_pixel(0, -14),
+          hr_version =
           {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
-            x = 174,
-            frame_count = 1,
-            width = 174,
-            height = 119,
-            shift = util.by_pixel(0, -5.25),
-            scale = 0.5
-          }
-        },
-        south_animation =
-        {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
-          x = 174,
-          frame_count = 1,
-          width = 87,
-          height = 60,
-          shift = util.by_pixel(0, -5),
-          hr_version = 
-          {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
-            x = 348,
-            frame_count = 1,
-            width = 174,
-            height = 119,
-            shift = util.by_pixel(0, -5.25),
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-smoke-inner.png",
+            frame_count = 47,
+            line_length = 16,
+            width = 40,
+            height = 84,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -14),
             scale = 0.5
           }
         }
@@ -778,145 +892,259 @@ data:extend({
     {
       {
         filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk3/chemical-plant-mk3.png",
-        width = 122,
-        height = 134,
-        frame_count = 1,
-        shift = util.by_pixel(-5, -4.5),
-        hr_version = 
+        width = 108,
+        height = 148,
+        frame_count = 24,
+        line_length = 12,
+        shift = util.by_pixel(1, -9),
+        hr_version =
         {
           filename = "__FactorioExtended-Plus-Machines__/graphics/entity/chemical-plant-mk3/hr-chemical-plant-mk3.png",
-          width = 244,
-          height = 268,
-          frame_count = 1,
-          shift = util.by_pixel(-5, -4.5),
+          width = 220,
+          height = 292,
+          frame_count = 24,
+          line_length = 12,
+          shift = util.by_pixel(0.5, -9),
           scale = 0.5
-        }
+          }
       },
       {
         filename = "__base__/graphics/entity/chemical-plant/chemical-plant-shadow.png",
-        width = 175,
-        height = 141,
+        width = 154,
+        height = 112,
+        repeat_count = 24,
         frame_count = 1,
-        shift = util.by_pixel(31.5, 11),
+        shift = util.by_pixel(28, 6),
         draw_as_shadow = true,
-        hr_version = 
+        hr_version =
         {
           filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-shadow.png",
-          width = 350,
-          height = 219,
+          width = 312,
+          height = 222,
+          repeat_count = 24,
           frame_count = 1,
-          shift = util.by_pixel(31.5, 10.75),
+          shift = util.by_pixel(27, 6),
           draw_as_shadow = true,
           scale = 0.5
-        }
-      },
+          }
+      }
     }}),
     working_visualisations =
     {
       {
-        north_position = util.by_pixel(30, -24),
-        west_position = util.by_pixel(1, -49.5),
-        south_position = util.by_pixel(-30, -48),
-        east_position = util.by_pixel(-11, -1),
         apply_recipe_tint = "primary",
-        animation =
+        north_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-green-patch.png",
-          frame_count = 32,
-          width = 15,
-          height = 10,
-          hr_version = 
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-liquid-north.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 32,
+          height = 24,
+          shift = util.by_pixel(24, 14),
+          hr_version =
           {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch.png",
-            frame_count = 32,
-            width = 30,
-            height = 20,
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-liquid-north.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 66,
+            height = 44,
+            shift = util.by_pixel(23, 15),
+            scale = 0.5
+          }
+        },
+        east_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-liquid-east.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 36,
+          height = 18,
+          shift = util.by_pixel(0, 22),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-liquid-east.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 70,
+            height = 36,
+            shift = util.by_pixel(0, 22),
+            scale = 0.5
+          }
+        },
+        south_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-liquid-south.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 34,
+          height = 24,
+          shift = util.by_pixel(0, 16),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-liquid-south.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 66,
+            height = 42,
+            shift = util.by_pixel(0, 17),
+            scale = 0.5
+          }
+        },
+        west_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-liquid-west.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 38,
+          height = 20,
+          shift = util.by_pixel(-10, 12),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-liquid-west.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 74,
+            height = 36,
+            shift = util.by_pixel(-10, 13),
             scale = 0.5
           }
         }
       },
-
       {
-        north_position = util.by_pixel(30, -24),
-        west_position = util.by_pixel(1, -49.5),
-        south_position = util.by_pixel(-30, -48),
-        east_position = util.by_pixel(-11, -1),
         apply_recipe_tint = "secondary",
-        animation =
+        north_animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-green-patch-mask.png",
-          frame_count = 32,
-          width = 15,
-          height = 10,
-          hr_version = 
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-foam-north.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 32,
+          height = 22,
+          shift = util.by_pixel(24, 14),
+          hr_version =
           {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-green-patch-mask.png",
-            frame_count = 32,
-            width = 30,
-            height = 20,
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-foam-north.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 62,
+            height = 42,
+            shift = util.by_pixel(24, 15),
+            scale = 0.5
+          }
+        },
+        east_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-foam-east.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 34,
+          height = 18,
+          shift = util.by_pixel(0, 22),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-foam-east.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 68,
+            height = 36,
+            shift = util.by_pixel(0, 22),
+            scale = 0.5
+          }
+        },
+        south_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-foam-south.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 32,
+          height = 18,
+          shift = util.by_pixel(0, 18),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-foam-south.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 60,
+            height = 40,
+            shift = util.by_pixel(1, 17),
+            scale = 0.5
+          }
+        },
+        west_animation =
+        {
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-foam-west.png",
+          frame_count = 24,
+          line_length = 6,
+          width = 36,
+          height = 16,
+          shift = util.by_pixel(-10, 14),
+          hr_version =
+          {
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-foam-west.png",
+            frame_count = 24,
+            line_length = 6,
+            width = 68,
+            height = 28,
+            shift = util.by_pixel(-9, 15),
             scale = 0.5
           }
         }
       },
       {
         apply_recipe_tint = "tertiary",
-        north_position = {0, 0},
-        west_position = {0, 0},
-        south_position = {0, 0},
-        east_position = {0, 0},
-        north_animation =
+        fadeout = true,
+        constant_speed = true,
+        north_position = util.by_pixel_hr(-30, -161),
+        east_position = util.by_pixel_hr(29, -150),
+        south_position = util.by_pixel_hr(12, -134),
+        west_position = util.by_pixel_hr(-32, -130),
+        animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
-          frame_count = 1,
-          width = 87,
-          height = 60,
-          shift = util.by_pixel(0, -5),
-          hr_version = 
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-smoke-outer.png",
+          frame_count = 47,
+          line_length = 16,
+          width = 46,
+          height = 94,
+          animation_speed = 0.5,
+          shift = util.by_pixel(-2, -40),
+          hr_version =
           {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
-            x = 0,
-            frame_count = 1,
-            width = 174,
-            height = 119,
-            shift = util.by_pixel(0, -5.25),
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-smoke-outer.png",
+            frame_count = 47,
+            line_length = 16,
+            width = 90,
+            height = 188,
+            animation_speed = 0.5,
+            shift = util.by_pixel(-2, -40),
             scale = 0.5
           }
-        },
-        east_animation =
+        }
+      },
+      {
+        apply_recipe_tint = "quaternary",
+        fadeout = true,
+        constant_speed = true,
+        north_position = util.by_pixel_hr(-30, -161),
+        east_position = util.by_pixel_hr(29, -150),
+        south_position = util.by_pixel_hr(12, -134),
+        west_position = util.by_pixel_hr(-32, -130),
+        animation =
         {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
-          x = 87,
-          frame_count = 1,
-          width = 87,
-          height = 60,
-          shift = util.by_pixel(0, -5),
-          hr_version = 
+          filename = "__base__/graphics/entity/chemical-plant/chemical-plant-smoke-inner.png",
+          frame_count = 47,
+          line_length = 16,
+          width = 20,
+          height = 42,
+          animation_speed = 0.5,
+          shift = util.by_pixel(0, -14),
+          hr_version =
           {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
-            x = 174,
-            frame_count = 1,
-            width = 174,
-            height = 119,
-            shift = util.by_pixel(0, -5.25),
-            scale = 0.5
-          }
-        },
-        south_animation =
-        {
-          filename = "__base__/graphics/entity/chemical-plant/boiling-window-green-patch.png",
-          x = 174,
-          frame_count = 1,
-          width = 87,
-          height = 60,
-          shift = util.by_pixel(0, -5),
-          hr_version = 
-          {
-            filename = "__base__/graphics/entity/chemical-plant/hr-boiling-window-green-patch.png",
-            x = 348,
-            frame_count = 1,
-            width = 174,
-            height = 119,
-            shift = util.by_pixel(0, -5.25),
+            filename = "__base__/graphics/entity/chemical-plant/hr-chemical-plant-smoke-inner.png",
+            frame_count = 47,
+            line_length = 16,
+            width = 40,
+            height = 84,
+            animation_speed = 0.5,
+            shift = util.by_pixel(0, -14),
             scale = 0.5
           }
         }

@@ -16,8 +16,8 @@ data.raw["assembling-machine"]["chemical-plant"].fast_replaceable_group = "chemi
 data.raw["assembling-machine"]["centrifuge"].fast_replaceable_group     = "centrifuge"
 data.raw["assembling-machine"]["centrifuge"].next_upgrade               = "centrifuge-mk2"
 
-data.raw["radar"]["radar"].fast_replaceable_group                       = "radar"
-data.raw["radar"]["radar"].next_upgrade                                 = "radar-mk2"
+-- data.raw["radar"]["radar"].fast_replaceable_group                       = "radar"
+-- data.raw["radar"]["radar"].next_upgrade                                 = "radar-mk2"
 
 data.raw["mining-drill"]["pumpjack"].fast_replaceable_group             = "pumpjack"
 data.raw["mining-drill"]["pumpjack"].next_upgrade                       = "pumpjack-mk2"
