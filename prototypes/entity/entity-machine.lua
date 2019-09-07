@@ -22,7 +22,7 @@ data:extend({
         percent = 30
       }
     },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     energy_per_sector = "10MJ",
     max_distance_of_sector_revealed = 30,

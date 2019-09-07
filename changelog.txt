@@ -26,3 +26,11 @@ Version: 0.2.1
 Date: 03. 03. 2019
   Changes :
     - Updating graphics and properties
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 09. 07. 2019
+  Changes :
+    - Updating chemical plant graphics to support factorio update 0.17.67
+    - Moving vanilla next_upgrade assignments to data-updates so that other mods that copy vanilla items
+      don't copy the modified versions
+    - Changing bounding box on radar-mk2 to match vanilla
