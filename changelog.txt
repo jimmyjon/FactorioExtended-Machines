@@ -34,3 +34,8 @@ Date: 09. 07. 2019
     - Moving vanilla next_upgrade assignments to data-updates so that other mods that copy vanilla items
       don't copy the modified versions
     - Changing bounding box on radar-mk2 to match vanilla
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 09. 07. 2019
+  Changes :
+    - Updated migration for basic-mining-drill-mk2 to electric-mining-drill-mk2
