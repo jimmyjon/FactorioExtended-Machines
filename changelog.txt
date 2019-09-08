@@ -39,3 +39,8 @@ Version: 0.2.3
 Date: 09. 07. 2019
   Changes :
     - Updated migration for basic-mining-drill-mk2 to electric-mining-drill-mk2
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 09. 07. 2019
+  Changes :
+    - Updating migration again for mining drills
