@@ -140,5 +140,27 @@ data:extend({
     order = "e-b",
     place_result = "centrifuge-mk3",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "lab-mk2",
+    icon_size = 32,
+    icon = nil,
+    icons = {{ icon = "__base__/graphics/icons/lab.png", tint={r=0.4, g=0.804, b=0.667, a=0.8} }},
+    subgroup = "fb-machines",
+    order = "e-c",
+    place_result = "lab-mk2",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "lab-mk3",
+    icon_size = 32,
+    icon = nil,
+    icons = {{ icon = "__base__/graphics/icons/lab.png", tint={r=0.690, g=0.75, b=1, a=0.8} }},
+    subgroup = "fb-machines",
+    order = "e-c",
+    place_result = "lab-mk3",
+    stack_size = 50
   }
 })
