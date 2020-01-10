@@ -1137,7 +1137,7 @@ lab.on_animation.layers[1].hr_version.tint = green_tint
 lab.off_animation.tint = green_tint
 lab.off_animation.layers[1].tint = green_tint
 lab.off_animation.layers[1].hr_version.tint = green_tint
-lab.researching_speed = 2
+lab.researching_speed = 1.5
 lab.module_specification.module_slots = 3
 lab.minable = { mining_time = 0.2, result = "lab-mk2" }
 lab.icon = nil
@@ -1154,7 +1154,7 @@ lab.on_animation.layers[1].hr_version.tint = blue_tint
 lab.off_animation.tint = blue_tint
 lab.off_animation.layers[1].tint = blue_tint
 lab.off_animation.layers[1].hr_version.tint = blue_tint
-lab.researching_speed = 3
+lab.researching_speed = 2
 lab.module_specification.module_slots = 4
 lab.minable = { mining_time = 0.2, result = "lab-mk3" }
 lab.icon = nil
