@@ -199,6 +199,33 @@ data:extend({
     },
     result = "centrifuge-mk3",
     requester_paste_multiplier= 2
+  },
+  {
+    type = "recipe",
+    name = "lab-mk2",
+    energy_required = 4,
+    enabled = false,
+    ingredients =
+    {
+      {"lab", 2},
+      {"titanium-alloy", 50 },
+      {"advanced-circuit", 50 }
+    },
+    result = "lab-mk2"
+  },
+  {
+    type = "recipe",
+    name = "lab-mk3",
+    energy_required = 8,
+    enabled = false,
+    ingredients =
+    {
+      {"lab-mk2", 2},
+      {"concrete", 50 },
+      {"titanium-alloy", 100 },
+      {"processing-unit", 50 }
+    },
+    result = "lab-mk3",
   }
 })
 
