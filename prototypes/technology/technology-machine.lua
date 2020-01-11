@@ -127,7 +127,7 @@ data:extend(
   {
     type = "technology",
     name = "mechanical-engineer",
-    icon = "__base__/graphics/technology/automation.png",
+    icons = {{icon="__base__/graphics/technology/automation.png", tint={r=0.4, g=0.804, b=0.667, a=0.8} }},
     icon_size = 128,
     prerequisites = {"automation-2", "advanced-material-processing-2", "speed-module", "effectivity-module", "titanium-processing"},
     effects =
@@ -148,6 +148,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "electric-mining-drill-mk2"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "lab-mk2"
+      }
       
     },
     unit =
@@ -167,7 +171,7 @@ data:extend(
   {
     type = "technology",
     name = "mechanical-engineer-2",
-    icon = "__base__/graphics/technology/automation.png",
+    icons = {{icon="__base__/graphics/technology/automation.png", tint={r=0.690, g=0.75, b=1} }},
     icon_size = 128,
     prerequisites = {"mechanical-engineer", "speed-module-2", "effectivity-module-2"},
     effects =
@@ -179,6 +183,10 @@ data:extend(
       {
         type = "unlock-recipe",
         recipe = "assembling-machine-5"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "lab-mk3"
       }
     },
     unit =
@@ -190,10 +198,10 @@ data:extend(
         {"logistic-science-pack", 1}, 
         {"chemical-science-pack", 1}, 
         {"production-science-pack", 1},
-        {"utility-science-pack", 1}
+		{"utility-science-pack", 1}      
       },
       time = 60
     },
     order = "f-b-f-b"
-  }
+  },
 })

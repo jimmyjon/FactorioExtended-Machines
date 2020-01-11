@@ -116,9 +116,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 7
+      emissions_per_minute = 1
     },
-    energy_usage = "270kW",
+    energy_usage = "417kW",
     module_specification =
     {
       module_slots = 4
@@ -243,9 +243,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 7
+      emissions_per_minute = 0.5
     },
-    energy_usage = "330kW",
+    energy_usage = "460kW",
     module_specification =
     {
       module_slots = 4
@@ -278,7 +278,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 7
+      emissions_per_minute = 5
     },
     energy_usage = "460kW",
     fast_replaceable_group = "oil-refinery",
@@ -420,7 +420,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 7
+      emissions_per_minute = 4
     },
     energy_usage = "500kW",
     fast_replaceable_group = "oil-refinery",
@@ -835,7 +835,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 7
+      emissions_per_minute = 3
     },
     energy_usage = "250kW",
     crafting_categories = {"chemistry"},
@@ -1168,7 +1168,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.03 / 7
+      emissions_per_minute = 2
     },
     energy_usage = "290kW",
     crafting_categories = {"chemistry"},
@@ -1465,13 +1465,13 @@ data:extend({
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    crafting_speed = 1,
+    crafting_speed = 1.5,
     crafting_categories = {"centrifuging"},
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.04 / 5
+      emissions_per_minute = 3
     },
     energy_usage = "450kW",
     module_specification =
@@ -1742,13 +1742,13 @@ data:extend({
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     },
-    crafting_speed = 1.5,
+    crafting_speed = 3,
     crafting_categories = {"centrifuging"},
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.04 / 10
+      emissions_per_minute = 2
     },
     energy_usage = "550kW",
     module_specification =
