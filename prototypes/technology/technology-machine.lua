@@ -129,7 +129,7 @@ data:extend(
     name = "mechanical-engineer",
     icons = {{icon="__base__/graphics/technology/automation.png", tint={r=0.4, g=0.804, b=0.667, a=0.8} }},
     icon_size = 128,
-    prerequisites = {"automation-2", "advanced-material-processing-2", "speed-module", "effectivity-module", "titanium-processing"},
+    prerequisites = {"automation-3", "advanced-material-processing-2", "speed-module", "effectivity-module", "titanium-processing"},
     effects =
     {
       {
