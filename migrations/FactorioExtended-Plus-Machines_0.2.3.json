@@ -3,6 +3,10 @@
 	[
 		["basic-mining-drill-mk2", "electric-mining-drill-mk2"]
 	],
+  "item":
+  [ 
+    ["basic-mining-drill-mk2", "electric-mining-drill-mk2"]
+  ],
   "recipe":
   [
     ["basic-mining-drill-mk2", "electric-mining-drill-mk2"]
