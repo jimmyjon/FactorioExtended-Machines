@@ -3,6 +3,7 @@ Version: 0.4.0
 Date: 21. 01. 2020
   Changes :
     - Support 0.18
+    - Added Mk3 mining drill
   Fixed:
     - Icon size for; lab-mk2, lab-mk3
 ---------------------------------------------------------------------------------------------------
