@@ -16,5 +16,6 @@ data.raw["mining-drill"]["pumpjack"].fast_replaceable_group             = "pumpj
 data.raw["mining-drill"]["pumpjack"].next_upgrade                       = "pumpjack-mk2"
 
 data.raw["mining-drill"]["electric-mining-drill"].next_upgrade          = "electric-mining-drill-mk2"
+data.raw["mining-drill"]["electric-mining-drill-mk2"].next_upgrade      = "electric-mining-drill-mk3"
 
 data.raw["furnace"]["electric-furnace"].next_upgrade                    = "electric-furnace-mk2"
