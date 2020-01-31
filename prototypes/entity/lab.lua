@@ -1,8 +1,12 @@
 local green_tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}
 local blue_tint = {r = 0.690, g = 0.75, b = 1}
 
+data.raw["lab"]["lab"].fast_replaceable_group   = "lab"
+data.raw["lab"]["lab"].next_upgrade             = "lab-mk2"
+
 local lab = table.deepcopy(data.raw["lab"]["lab"])
 lab.name = "lab-mk2"
+lab.next_upgrade = "lab-mk3"
 lab.energy_usage = "120kW"
 lab.on_animation.tint = green_tint
 lab.on_animation.layers[1].tint = green_tint
