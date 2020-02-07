@@ -5,13 +5,18 @@
 -- energy_usage                                     420kW       460kW       500kW
 -- module_specification.module_slots                3           4           4
 --
-data.raw["assembling-machine"]["oil-refinery"].fast_replaceable_group = "oil-refinery"
+-- If someone has already set the fast_replaceable_group lets use it too
+if not data.raw["assembling-machine"]["oil-refinery"].fast_replaceable_group then
+    data.raw["assembling-machine"]["oil-refinery"].fast_replaceable_group = "oil-refinery"
+end
+
 data.raw["assembling-machine"]["oil-refinery"].next_upgrade = "oil-refinery-mk2"
 
 local or2 = table.deepcopy(data.raw["assembling-machine"]["oil-refinery"])
 or2.name = "oil-refinery-mk2"
 or2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. or2.name .. ".png"
 or2.icon_size = 32
+or2.icon_mipmaps = nil
 or2.max_health = 400
 or2.minable.result = or2.name
 or2.next_upgrade = "oil-refinery-mk3"
@@ -29,6 +34,7 @@ local or3 = table.deepcopy(data.raw["assembling-machine"]["oil-refinery"])
 or3.name = "oil-refinery-mk3"
 or3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. or3.name .. ".png"
 or3.icon_size = 32
+or3.icon_mipmaps = nil
 or3.max_health = 400
 or3.minable.result = or3.name
 or3.next_upgrade = nil
