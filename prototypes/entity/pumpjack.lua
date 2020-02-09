@@ -4,14 +4,19 @@
 -- emissions_per_minute                     10          8
 -- module_specification.module_slots        2           4
 -- max_health                               200         400
+--
+-- If someone has already set the fast_replaceable_group lets use it too
+if not data.raw["mining-drill"]["pumpjack"].fast_replaceable_group then
+    data.raw["mining-drill"]["pumpjack"].fast_replaceable_group = "pumpjack"
+end
 
-data.raw["mining-drill"]["pumpjack"].fast_replaceable_group = "pumpjack"
 data.raw["mining-drill"]["pumpjack"].next_upgrade = "pumpjack-mk2"
 
 local pj2 = table.deepcopy(data.raw["mining-drill"]["pumpjack"])
 pj2.name = "pumpjack-mk2"
 pj2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/pumpjack-mk2.png"
 pj2.icon_size = 32
+pj2.icon_mipmaps = nil
 pj2.minable.result = pj2.name
 pj2.mining_speed = 2
 pj2.max_health = 400

@@ -5,14 +5,19 @@
 -- energy_usage                                     90kW              180kW              270kW
 -- resource_searching_radius                        2.49              3.49               4.49
 -- max_health                                       300               600                900
+--
+-- If someone has already set the fast_replaceable_group lets use it too
+if not data.raw["mining-drill"]["electric-mining-drill"].fast_replaceable_group then
+    data.raw["mining-drill"]["electric-mining-drill"].fast_replaceable_group = "electric-mining-drill"
+end
 
-data.raw["mining-drill"]["electric-mining-drill"].fast_replaceable_group = "electric-mining-drill"
 data.raw["mining-drill"]["electric-mining-drill"].next_upgrade = "electric-mining-drill-mk2"
 
 local drill2 = table.deepcopy(data.raw["mining-drill"]["electric-mining-drill"])
 drill2.name = "electric-mining-drill-mk2"
 drill2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-mining-drill-mk2.png"
 drill2.icon_size = 32
+drill2.icon_mipmaps = nil
 drill2.minable.result = drill2.name
 drill2.mining_speed = 1
 drill2.module_specification.module_slots = 4

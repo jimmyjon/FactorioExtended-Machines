@@ -1,3 +1,10 @@
+Version: 0.4.2
+Date: 07. 02. 2020
+  Changes :
+    - If a mod has set fast_replaceable_group for a technology family lets use it too (#14)
+  Fixes :
+    - Validation checks added for centrifuge animation attribute existing (#13)
+    - Cleared icon_mipmaps warnings, until FE+ graphics are updated
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 29. 01. 2020

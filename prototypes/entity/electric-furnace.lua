@@ -4,14 +4,19 @@
 -- module_specification.module_slots                2           4           4
 -- emissions_per_minute                             1           0.75        0.5
 -- energy_usage                                     180kW       200kW       220kW
+--
+-- If someone has already set the fast_replaceable_group lets use it too
+if not data.raw["furnace"]["electric-furnace"].fast_replaceable_group then
+    data.raw["furnace"]["electric-furnace"].fast_replaceable_group = "electric-furnace"
+end
 
-data.raw["furnace"]["electric-furnace"].fast_replaceable_group = "electric-furnace"
 data.raw["furnace"]["electric-furnace"].next_upgrade = "electric-furnace-mk2"
 
 local furnace2 = table.deepcopy(data.raw["furnace"]["electric-furnace"])
 furnace2.name = "electric-furnace-mk2"
 furnace2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk2.png"
 furnace2.icon_size = 32
+furnace2.icon_mipmaps = nil
 furnace2.minable.result = furnace2.name
 furnace2.max_health = 400
 furnace2.module_specification.module_slots = 4
@@ -26,6 +31,7 @@ local furnace3 = table.deepcopy(data.raw["furnace"]["electric-furnace"])
 furnace3.name = "electric-furnace-mk3"
 furnace3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk3.png"
 furnace3.icon_size = 32
+furnace3.icon_mipmaps = nil
 furnace3.minable.result = furnace3.name
 furnace3.max_health = 450
 furnace3.module_specification.module_slots = 4
