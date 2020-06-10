@@ -92,16 +92,6 @@ data:extend(
         },
         {
             type = "item",
-            name = "electric-mining-drill-mk2",
-            icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-mining-drill-mk2.png",
-            icon_size = 32,
-            subgroup = "fb-machines",
-            order = "c-a",
-            place_result = "electric-mining-drill-mk2",
-            stack_size = 50
-        },
-        {
-            type = "item",
             name = "pumpjack-mk2",
             icon = "__FactorioExtended-Plus-Machines__/graphics/icons/pumpjack-mk2.png",
             icon_size = 32,
