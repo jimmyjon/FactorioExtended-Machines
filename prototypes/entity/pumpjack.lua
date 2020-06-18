@@ -14,6 +14,7 @@ data.raw["mining-drill"]["pumpjack"].next_upgrade = "pumpjack-mk2"
 
 local pj2 = table.deepcopy(data.raw["mining-drill"]["pumpjack"])
 pj2.name = "pumpjack-mk2"
+pj2.next_upgrade = nil
 pj2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/pumpjack-mk2.png"
 pj2.icon_size = 32
 pj2.icon_mipmaps = nil

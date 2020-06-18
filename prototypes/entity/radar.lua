@@ -13,6 +13,7 @@ data.raw["radar"]["radar"].next_upgrade = "radar-mk2"
 
 local radar2 = table.deepcopy(data.raw["radar"]["radar"])
 radar2.name = "radar-mk2"
+radar2.next_upgrade = nil
 radar2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/radar-mk2.png"
 radar2.icon_size = 32
 radar2.icon_mipmaps = nil
