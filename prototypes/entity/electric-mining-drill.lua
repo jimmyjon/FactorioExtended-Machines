@@ -1,5 +1,4 @@
-local green_tint = {r = 0.4, g = 0.804, b = 0.667}
-local blue_tint = {r = 0.690, g = 0.75, b = 1}
+local Constant = require("constant")
 
 local function change_animation(graphics, tint)
     for _, direction in pairs({"north", "east", "south", "west"}) do
@@ -48,7 +47,7 @@ data.raw["mining-drill"]["electric-mining-drill"].next_upgrade = "electric-minin
 
 local drill2 = table.deepcopy(data.raw["mining-drill"]["electric-mining-drill"])
 drill2.name = "electric-mining-drill-mk2"
-drill2.icons = {{icon = drill2.icon, icon_size = drill2.icon_size, icon_mips = drill2.icon_mipmaps, tint = green_tint}}
+drill2.icons = {{icon = drill2.icon, icon_size = drill2.icon_size, icon_mips = drill2.icon_mipmaps, tint = Constant.green_tint}}
 drill2.icon_mipmaps = nil
 drill2.minable.result = drill2.name
 drill2.mining_speed = 1
@@ -58,12 +57,12 @@ drill2.energy_usage = "180kW"
 drill2.resource_searching_radius = 3.49
 drill2.max_health = 600
 drill2.next_upgrade = "electric-mining-drill-mk3"
-drill2.graphics_set = change_animation(drill2.graphics_set, green_tint)
-drill2.wet_mining_graphics_set = change_animation(drill2.wet_mining_graphics_set, green_tint)
+drill2.graphics_set = change_animation(drill2.graphics_set, Constant.green_tint)
+drill2.wet_mining_graphics_set = change_animation(drill2.wet_mining_graphics_set, Constant.green_tint)
 
 local drill3 = table.deepcopy(data.raw["mining-drill"]["electric-mining-drill"])
 drill3.name = "electric-mining-drill-mk3"
-drill2.icons = {{icon = drill3.icon, icon_size = drill3.icon_size, icon_mips = drill3.icon_mipmaps, tint = blue_tint}}
+drill2.icons = {{icon = drill3.icon, icon_size = drill3.icon_size, icon_mips = drill3.icon_mipmaps, tint = Constant.blue_tint}}
 drill3.minable.result = drill3.name
 drill3.mining_speed = 2
 drill3.module_specification.module_slots = 5
@@ -72,7 +71,7 @@ drill3.energy_usage = "270kW"
 drill3.resource_searching_radius = 4.49
 drill3.max_health = 900
 drill3.next_upgrade = nil
-drill3.graphics_set = change_animation(drill3.graphics_set, blue_tint)
-drill3.wet_mining_graphics_set = change_animation(drill3.wet_mining_graphics_set, blue_tint)
+drill3.graphics_set = change_animation(drill3.graphics_set, Constant.blue_tint)
+drill3.wet_mining_graphics_set = change_animation(drill3.wet_mining_graphics_set, Constant.blue_tint)
 
 data:extend({drill2, drill3})
