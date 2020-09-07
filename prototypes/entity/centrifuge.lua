@@ -14,9 +14,9 @@ data.raw["assembling-machine"]["centrifuge"].next_upgrade = "centrifuge-mk2"
 
 local c2 = table.deepcopy(data.raw["assembling-machine"]["centrifuge"])
 c2.name = "centrifuge-mk2"
-c2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. c2.name .. ".png"
-c2.icon_size = 32
-c2.icon_mipmaps = nil
+-- c2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. c2.name .. ".png"
+-- c2.icon_size = 32
+-- c2.icon_mipmaps = nil
 c2.max_health = 400
 c2.minable.result = c2.name
 c2.next_upgrade = "centrifuge-mk3"
@@ -46,9 +46,9 @@ end
 local c3 = table.deepcopy(data.raw["assembling-machine"]["centrifuge"])
 c3.name = "centrifuge-mk3"
 c3.next_upgrade = nil
-c3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. c3.name .. ".png"
-c3.icon_size = 32
-c3.icon_mipmaps = nil
+-- c3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. c3.name .. ".png"
+-- c3.icon_size = 32
+-- c3.icon_mipmaps = nil
 c3.max_health = 450
 c3.minable.result = c3.name
 c3.crafting_speed = 3
