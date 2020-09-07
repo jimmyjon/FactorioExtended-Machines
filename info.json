@@ -1,16 +1,16 @@
 {
     "name": "FactorioExtended-Plus-Machines",
-    "version": "0.4.5",
-    "factorio_version": "0.18",
-    "date": "2020-06-19",
+    "version": "1.0.0",
+    "factorio_version": "1.0",
+    "date": "2020-09-07",
     "title": "FactorioExtended Plus-Machines",
     "author": "jimmyjon711 (Original Author: Nath Gamer)",
     "contributers": "billbo99",
     "homepage": "",
     "description": "",
     "dependencies": [
-        "base >= 0.18.31",
-        "FactorioExtended-Plus-Core >= 0.4.0",
-        "?FactorioExtended-Plus-Transport >= 0.4.0"
+        "base >= 1.0.0",
+        "FactorioExtended-Plus-Core >= 1.0.0",
+        "?FactorioExtended-Plus-Transport >= 1.0.0"
     ]
 }
