@@ -9,9 +9,9 @@ data.raw["assembling-machine"]["assembling-machine-3"].next_upgrade = "assemblin
 
 local am4 = table.deepcopy(data.raw["assembling-machine"]["assembling-machine-3"])
 am4.name = "assembling-machine-4"
--- am4.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. am4.name .. ".png"
--- am4.icon_size = 32
--- am4.icon_mipmaps = nil
+am4.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. am4.name .. ".png"
+am4.icon_size = 64
+am4.icon_mipmaps = 4
 am4.max_health = 450
 am4.minable.result = am4.name
 am4.next_upgrade = "assembling-machine-5"
@@ -31,9 +31,9 @@ end
 
 local am5 = table.deepcopy(data.raw["assembling-machine"]["assembling-machine-3"])
 am5.name = "assembling-machine-5"
--- am5.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. am5.name .. ".png"
--- am5.icon_size = 32
--- am5.icon_mipmaps = nil
+am5.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. am5.name .. ".png"
+am5.icon_size = 64
+am5.icon_mipmaps = 4
 am5.max_health = 500
 am5.minable.result = am5.name
 am5.next_upgrade = nil

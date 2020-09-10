@@ -1,3 +1,5 @@
+local Constant = require("constant")
+
 -- centrifuge                                       mk1         mk2         mk3
 -- max_health                                       350         400         450
 -- crafting_speed                                   1           1.5         3
@@ -14,9 +16,7 @@ data.raw["assembling-machine"]["centrifuge"].next_upgrade = "centrifuge-mk2"
 
 local c2 = table.deepcopy(data.raw["assembling-machine"]["centrifuge"])
 c2.name = "centrifuge-mk2"
--- c2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. c2.name .. ".png"
--- c2.icon_size = 32
--- c2.icon_mipmaps = nil
+c2.icons = {{icon = c2.icon, icon_size = c2.icon_size, icon_mipmaps = c2.icon_mipmaps, tint = Constant.green_tint}}
 c2.max_health = 400
 c2.minable.result = c2.name
 c2.next_upgrade = "centrifuge-mk3"
@@ -46,9 +46,7 @@ end
 local c3 = table.deepcopy(data.raw["assembling-machine"]["centrifuge"])
 c3.name = "centrifuge-mk3"
 c3.next_upgrade = nil
--- c3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. c3.name .. ".png"
--- c3.icon_size = 32
--- c3.icon_mipmaps = nil
+c3.icons = {{icon = c3.icon, icon_size = c3.icon_size, icon_mipmaps = c3.icon_mipmaps, tint = Constant.blue_tint}}
 c3.max_health = 450
 c3.minable.result = c3.name
 c3.crafting_speed = 3
