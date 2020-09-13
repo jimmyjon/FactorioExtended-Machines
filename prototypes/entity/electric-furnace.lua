@@ -14,9 +14,9 @@ data.raw["furnace"]["electric-furnace"].next_upgrade = "electric-furnace-mk2"
 
 local furnace2 = table.deepcopy(data.raw["furnace"]["electric-furnace"])
 furnace2.name = "electric-furnace-mk2"
--- furnace2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk2.png"
--- furnace2.icon_size = 32
--- furnace2.icon_mipmaps = nil
+furnace2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk2.png"
+furnace2.icon_size = 64
+furnace2.icon_mipmaps = 4
 furnace2.minable.result = furnace2.name
 furnace2.max_health = 400
 furnace2.module_specification.module_slots = 4
@@ -29,9 +29,9 @@ furnace2.animation.layers[1].hr_version.filename = "__FactorioExtended-Plus-Mach
 
 local furnace3 = table.deepcopy(data.raw["furnace"]["electric-furnace"])
 furnace3.name = "electric-furnace-mk3"
--- furnace3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk3.png"
--- furnace3.icon_size = 32
--- furnace3.icon_mipmaps = nil
+furnace3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk3.png"
+furnace3.icon_size = 64
+furnace3.icon_mipmaps = 4
 furnace3.minable.result = furnace3.name
 furnace3.max_health = 450
 furnace3.module_specification.module_slots = 4
