@@ -7,13 +7,6 @@ local Constant = require("constant")
 -- energy_usage                                     350kW       450kW       550kW
 -- module_specification.module_slots                2           4           4
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["assembling-machine"]["centrifuge"].fast_replaceable_group then
-    data.raw["assembling-machine"]["centrifuge"].fast_replaceable_group = "centrifuge"
-end
-
-data.raw["assembling-machine"]["centrifuge"].next_upgrade = "centrifuge-mk2"
-
 local c2 = table.deepcopy(data.raw["assembling-machine"]["centrifuge"])
 c2.name = "centrifuge-mk2"
 c2.icons = {{icon = c2.icon, icon_size = c2.icon_size, icon_mipmaps = c2.icon_mipmaps, tint = Constant.green_tint}}

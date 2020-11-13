@@ -5,13 +5,6 @@
 -- emissions_per_minute                             1           0.75        0.5
 -- energy_usage                                     180kW       200kW       220kW
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["furnace"]["electric-furnace"].fast_replaceable_group then
-    data.raw["furnace"]["electric-furnace"].fast_replaceable_group = "electric-furnace"
-end
-
-data.raw["furnace"]["electric-furnace"].next_upgrade = "electric-furnace-mk2"
-
 local furnace2 = table.deepcopy(data.raw["furnace"]["electric-furnace"])
 furnace2.name = "electric-furnace-mk2"
 furnace2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/electric-furnace-mk2.png"

@@ -5,13 +5,6 @@
 -- energy_usage                                     210kW       250kW       290kW
 -- module_specification.module_slots                3           4           4
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["assembling-machine"]["chemical-plant"].fast_replaceable_group then
-    data.raw["assembling-machine"]["chemical-plant"].fast_replaceable_group = "chemical-plant"
-end
-
-data.raw["assembling-machine"]["chemical-plant"].next_upgrade = "chemical-plant-mk2"
-
 local cp2 = table.deepcopy(data.raw["assembling-machine"]["chemical-plant"])
 cp2.name = "chemical-plant-mk2"
 cp2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. cp2.name .. ".png"

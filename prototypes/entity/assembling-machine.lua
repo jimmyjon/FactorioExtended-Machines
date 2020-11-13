@@ -5,7 +5,6 @@
 -- energy_usage                                     75kW        150kW       375kW       417kW       460kW
 -- module_specification.module_slots                            2           4           4           4
 --
-data.raw["assembling-machine"]["assembling-machine-3"].next_upgrade = "assembling-machine-4"
 
 local am4 = table.deepcopy(data.raw["assembling-machine"]["assembling-machine-3"])
 am4.name = "assembling-machine-4"

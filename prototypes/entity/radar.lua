@@ -4,13 +4,6 @@
 -- max_distance_of_nearby_sector_revealed           3           7
 -- energy_usage                                     300kW       350kW
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["radar"]["radar"].fast_replaceable_group then
-    data.raw["radar"]["radar"].fast_replaceable_group = "radar"
-end
-
-data.raw["radar"]["radar"].next_upgrade = "radar-mk2"
-
 local radar2 = table.deepcopy(data.raw["radar"]["radar"])
 radar2.name = "radar-mk2"
 radar2.next_upgrade = nil

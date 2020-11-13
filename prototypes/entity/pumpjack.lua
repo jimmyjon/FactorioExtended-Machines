@@ -5,13 +5,6 @@
 -- module_specification.module_slots        2           4
 -- max_health                               200         400
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["mining-drill"]["pumpjack"].fast_replaceable_group then
-    data.raw["mining-drill"]["pumpjack"].fast_replaceable_group = "pumpjack"
-end
-
-data.raw["mining-drill"]["pumpjack"].next_upgrade = "pumpjack-mk2"
-
 local pj2 = table.deepcopy(data.raw["mining-drill"]["pumpjack"])
 pj2.name = "pumpjack-mk2"
 pj2.next_upgrade = nil
