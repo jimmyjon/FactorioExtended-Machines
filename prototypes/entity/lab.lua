@@ -1,8 +1,5 @@
 local Constant = require("constant")
 
-data.raw["lab"]["lab"].fast_replaceable_group = "lab"
-data.raw["lab"]["lab"].next_upgrade = "lab-mk2"
-
 local lab2 = table.deepcopy(data.raw["lab"]["lab"])
 lab2.name = "lab-mk2"
 lab2.next_upgrade = "lab-mk3"

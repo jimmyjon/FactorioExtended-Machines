@@ -38,13 +38,6 @@ end
 -- resource_searching_radius                        2.49              3.49               4.49
 -- max_health                                       300               600                900
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["mining-drill"]["electric-mining-drill"].fast_replaceable_group then
-    data.raw["mining-drill"]["electric-mining-drill"].fast_replaceable_group = "electric-mining-drill"
-end
-
-data.raw["mining-drill"]["electric-mining-drill"].next_upgrade = "electric-mining-drill-mk2"
-
 local drill2 = table.deepcopy(data.raw["mining-drill"]["electric-mining-drill"])
 drill2.name = "electric-mining-drill-mk2"
 drill2.icons = {{icon = drill2.icon, icon_size = drill2.icon_size, icon_mips = drill2.icon_mipmaps, tint = Constant.green_tint}}
