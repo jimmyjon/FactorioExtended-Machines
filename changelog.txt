@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020-11-24
+  Changes:
+    - Added support for 1.1.0
+    - Cloned technology icons changed from 128 to 256
+    - If a mod has changed the fast_replaceable_group for the vanila entity use it
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 21. 11. 2020
   Changes :

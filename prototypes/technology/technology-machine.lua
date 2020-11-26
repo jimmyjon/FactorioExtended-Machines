@@ -3,7 +3,7 @@ data:extend(
         {
             type = "technology",
             name = "advanced-oil-processing-2",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/oil-processing.png",
             localised_description = {"technology-description.advanced-oil-processing-2"},
             prerequisites = {"advanced-oil-processing", "speed-module", "titanium-processing"},
@@ -36,7 +36,7 @@ data:extend(
         {
             type = "technology",
             name = "advanced-oil-processing-3",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/oil-processing.png",
             localised_description = {"technology-description.advanced-oil-processing-3"},
             prerequisites = {"advanced-oil-processing-2", "speed-module-2", "effectivity-module-2"},
@@ -66,7 +66,7 @@ data:extend(
         {
             type = "technology",
             name = "centrifuge-2",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/nuclear-power.png",
             prerequisites = {"nuclear-power", "titanium-processing"},
             effects = {
@@ -90,7 +90,7 @@ data:extend(
         {
             type = "technology",
             name = "centrifuge-3",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/nuclear-power.png",
             prerequisites = {"centrifuge-2", "advanced-electronics-2"},
             effects = {
@@ -115,8 +115,8 @@ data:extend(
         {
             type = "technology",
             name = "mechanical-engineer",
-            icons = {{icon = "__base__/graphics/technology/automation.png", tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}}},
-            icon_size = 128,
+            icons = {{icon = "__base__/graphics/technology/automation-1.png", tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}}},
+            icon_size = 256,
             prerequisites = {"automation-3", "advanced-material-processing-2", "speed-module", "effectivity-module", "titanium-processing"},
             effects = {
                 {
@@ -155,8 +155,8 @@ data:extend(
         {
             type = "technology",
             name = "mechanical-engineer-2",
-            icons = {{icon = "__base__/graphics/technology/automation.png", tint = {r = 0.690, g = 0.75, b = 1}}},
-            icon_size = 128,
+            icons = {{icon = "__base__/graphics/technology/automation-1.png", tint = {r = 0.690, g = 0.75, b = 1}}},
+            icon_size = 256,
             prerequisites = {"mechanical-engineer", "speed-module-2", "effectivity-module-2"},
             effects = {
                 {
