@@ -7,9 +7,9 @@
 local radar2 = table.deepcopy(data.raw["radar"]["radar"])
 radar2.name = "radar-mk2"
 radar2.next_upgrade = nil
--- radar2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/radar-mk2.png"
--- radar2.icon_size = 32
--- radar2.icon_mipmaps = nil
+radar2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/radar-mk2.png"
+radar2.icon_size = 64
+radar2.icon_mipmaps = 4
 radar2.max_health = 300
 radar2.minable.result = radar2.name
 radar2.max_distance_of_sector_revealed = 30

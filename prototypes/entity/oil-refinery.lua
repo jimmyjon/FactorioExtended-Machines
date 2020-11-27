@@ -7,9 +7,9 @@
 --
 local or2 = table.deepcopy(data.raw["assembling-machine"]["oil-refinery"])
 or2.name = "oil-refinery-mk2"
--- or2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. or2.name .. ".png"
--- or2.icon_size = 32
--- or2.icon_mipmaps = nil
+or2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. or2.name .. ".png"
+or2.icon_size = 64
+or2.icon_mipmaps = 4
 or2.max_health = 400
 or2.minable.result = or2.name
 or2.next_upgrade = "oil-refinery-mk3"
@@ -25,9 +25,9 @@ end
 
 local or3 = table.deepcopy(data.raw["assembling-machine"]["oil-refinery"])
 or3.name = "oil-refinery-mk3"
--- or3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. or3.name .. ".png"
--- or3.icon_size = 32
--- or3.icon_mipmaps = nil
+or3.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/" .. or3.name .. ".png"
+or3.icon_size = 64
+or3.icon_mipmaps = 4
 or3.max_health = 400
 or3.minable.result = or3.name
 or3.next_upgrade = nil

@@ -8,9 +8,9 @@
 local pj2 = table.deepcopy(data.raw["mining-drill"]["pumpjack"])
 pj2.name = "pumpjack-mk2"
 pj2.next_upgrade = nil
--- pj2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/pumpjack-mk2.png"
--- pj2.icon_size = 32
--- pj2.icon_mipmaps = nil
+pj2.icon = "__FactorioExtended-Plus-Machines__/graphics/icons/pumpjack-mk2.png"
+pj2.icon_size = 64
+pj2.icon_mipmaps = 4
 pj2.minable.result = pj2.name
 pj2.mining_speed = 2
 pj2.max_health = 400
